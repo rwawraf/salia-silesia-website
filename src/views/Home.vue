@@ -2,16 +2,22 @@
   <div class="home">
     <Carousel />
     <BlogPost :post="welcomeScreen" />
-    <BlogPost :post="post" v-for="(post, index) in blogPostArray" :key="index"/>
+    <BlogPost :post="post" v-for="(post, index) in blogPostFeed" :key="index"/>
     <div class="blog-card-wrap">
       <div class="container">
-        <h3>Relevante Posts anschauen</h3><br>
+        <h3>{{ $t('home.showMorePosts') }}</h3><br>
         <div class="blog-cards">
-          <BlogCard :post="post" v-for="(post, index) in blogCardsArray" :key="index" />
+          <BlogCard :post="post" v-for="(post, index) in blogPostCards" :key="index" />
         </div>
       </div>
     </div>
-
+    <div class="google-map-wrap">
+      <div class="container-map">
+        <div class="google-map">
+          <GoogleMap/>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -19,25 +25,26 @@
 import BlogPost from "../components/BlogPost";
 import BlogCard from "../components/BlogCard";
 import Carousel from "../components/Carousel";
+import GoogleMap from "../components/GoogleMap";
 
 export default {
   name: "Home",
   components: {
     BlogPost,
     BlogCard,
-    Carousel
+    Carousel,
+    GoogleMap
   },
   data() {
     return {
-            slides: ['bg-1', 'bg-2', 'bg-3']
-        }
+    }  
   },
   computed: {
-    blogCardsArray() {
-      return this.$store.state.blogCardsArray;
+    blogPostFeed() {
+      return this.$store.getters.blogPostFeed;
     },
-    blogPostArray() {
-      return this.$store.state.blogPostArray;
+    blogPostCards() {
+      return this.$store.getters.blogPostCards;
     },
     welcomeScreen() {
       return this.$store.state.welcomeScreen;
@@ -47,5 +54,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+div.home {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 </style>

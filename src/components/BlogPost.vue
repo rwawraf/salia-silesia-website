@@ -6,15 +6,15 @@
                 <h2 v-if="post.welcomeScreen">{{ post.title }}</h2>
                 <h2 v-else>{{ post.blogTitle }}</h2>
                 <p v-if="post.welcomeScreen">{{ post.blogPost }}</p>
-                <p v-else class="content-preview" v-html="post.blogHTML"></p>
-                <router-link class="link link-light" v-if="post.welcomeScreen" to="#">
-                    Mehr dazu<Arrow class="arrow arrow-light"/>
+                <p v-else class="content-preview" v-html="post.blogPreview"></p>
+                <router-link class="link link-light" v-if="post.welcomeScreen" :to="{ name: 'ViewBlogPost', params: { blogid: 0 } }">
+                    {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
                 <router-link class="link link-light" v-if="post.blogID % 2 == 0" :to="{ name: 'ViewBlogPost', params: { blogid: this.post.blogID } }">
-                    Mehr dazu<Arrow class="arrow arrow-light"/>
+                    {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
                 <router-link class="link link-blogpost" v-if="post.blogID % 2 == 1" :to="{ name: 'ViewBlogPost', params: { blogid: this.post.blogID } }">
-                    Mehr dazu<Arrow class="arrow"/>
+                    {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow"/>
                 </router-link>
             </div>
         </div>

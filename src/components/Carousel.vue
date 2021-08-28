@@ -15,7 +15,7 @@
   >
       <b-carousel-slide
         caption="AV Salia Silesia"
-        text="Die Studentenverbindung in Oppeln" 
+        :text="$t('carousel.description')"
       >
          <template #img>
           <b-img
@@ -27,7 +27,7 @@
       </b-carousel-slide>
       <b-carousel-slide
         caption="AV Salia Silesia"
-        text="Die Studentenverbindung in Oppeln"  
+        :text="$t('carousel.description')"
       >
          <template #img>
           <b-img
@@ -39,7 +39,7 @@
       </b-carousel-slide>
       <b-carousel-slide
         caption="AV Salia Silesia"
-        text="Die Studentenverbindung in Oppeln" 
+        :text="$t('carousel.description')"
       >
          <template #img>
           <b-img 

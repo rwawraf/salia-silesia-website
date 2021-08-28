@@ -112,4 +112,14 @@ export default {
     
   }
 }
+
+.google-map-wrap {
+  position: relative;
+  background-color: #f1f1f1;
+
+  .google-map {
+    width: 100%;
+    height: 250px;
+  }
+}
 </style>

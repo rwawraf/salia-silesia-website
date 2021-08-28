@@ -10,11 +10,11 @@
             </div>
             <div class="nav-links">
                 <ul v-show="!mobile">
-                    <router-link class="link" :to="{ name: 'Home' }">Home</router-link>
-                    <router-link class="link" to="#">Über uns</router-link>
-                    <router-link class="link" to="#">Programm</router-link>
-                    <router-link class="link" :to="{ name: 'Posts' }">Beiträge</router-link>
-                    <router-link class="link" to="#">Kontakt</router-link>
+                    <router-link class="link" :to="{ name: 'Home' }">{{ $t('navigation.home') }}</router-link>
+                    <router-link class="link" to="#">{{ $t('navigation.aboutUs') }}</router-link>
+                    <router-link class="link" to="#">{{ $t('navigation.program') }}</router-link>
+                    <router-link class="link" :to="{ name: 'Posts' }">{{ $t('navigation.posts') }}</router-link>
+                    <router-link class="link" to="#">{{ $t('navigation.kontakt') }}</router-link>
                 </ul>
             </div>
         </nav>
@@ -22,11 +22,11 @@
         <transition name="mobile-nav">
             <ul class="mobile-nav" v-show="mobileNav">
                     <img class="brand-logo-mobile" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
-                    <router-link class="link link-light" :to="{ name: 'Home' }">Home</router-link>
-                    <router-link class="link link-light" to="#">Über uns</router-link>
-                    <router-link class="link link-light" to="#">Programm</router-link>
-                    <router-link class="link link-light" :to="{ name: 'Posts' }">Beiträge</router-link>
-                    <router-link class="link link-light" to="#">Kontakt</router-link>
+                    <router-link class="link link-light" :to="{ name: 'Home' }">{{ $t('navigation.home') }}</router-link>
+                    <router-link class="link link-light" to="#">{{ $t('navigation.aboutUs') }}</router-link>
+                    <router-link class="link link-light" to="#">{{ $t('navigation.program') }}</router-link>
+                    <router-link class="link link-light" :to="{ name: 'Posts' }">{{ $t('navigation.posts') }}</router-link>
+                    <router-link class="link link-light" to="#">{{ $t('navigation.kontakt') }}</router-link>
                 </ul>
         </transition>
     </header>

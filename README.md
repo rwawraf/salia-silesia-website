@@ -1,4 +1,4 @@
-# fireblogs
+# salia-silesia-website
 
 ## Project setup
 ```

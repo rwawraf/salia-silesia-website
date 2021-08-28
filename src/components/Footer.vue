@@ -5,27 +5,28 @@
       </div>
     <div class="container">
       <div class="left">
-        <div class="col-1">
-          <router-link class="header" :to="{ name: 'Home' }">Salia Silesia</router-link>
           <ul>
-            <li>
-              <a href="https://www.instagram.com/salia_silesia/" target="_blank"><instagram class="svg-icon"/></a>
-            </li>
+            <router-link class="link link-light" :to="{ name: 'Home' }">{{ $t('navigation.home') }}</router-link>
+            <router-link class="link link-light" to="#">{{ $t('navigation.aboutUs') }}</router-link>
+            <router-link class="link link-light" to="#">{{ $t('navigation.program') }}</router-link>
+            <router-link class="link link-light" :to="{ name: 'Posts' }">{{ $t('navigation.posts') }}</router-link>
+            <router-link class="link link-light last-elem" to="#">{{ $t('navigation.kontakt') }}</router-link>
           </ul>
-        </div>
-        <div class="col-2">
-          <ul padding-left="0px">
-            <router-link class="link link-light" :to="{ name: 'Home' }">Home</router-link>
-            <router-link class="link link-light" to="#">Über uns</router-link>
-            <router-link class="link link-light" to="#">Programm</router-link>
-            <router-link class="link link-light" :to="{ name: 'Posts' }">Beiträge</router-link>
-            <router-link class="link link-light" to="#">Kontakt</router-link>
+          <ul>
+            <a href="https://www.instagram.com/salia_silesia/" target="_blank"><instagram class="svg-icon svg-white"/></a>
+            <a href="https://www.facebook.com/AV-Salia-Silesia-Gleiwitz-zu-Oppeln-im-CV-137262049627126/" target="_blank"><facebook class="svg-icon svg-black"/></a>
+            <a href="https://www.instagram.com/salia_silesia/" target="_blank"><instagram class="svg-icon svg-orange"/></a>
+            <a href="https://www.instagram.com/salia_silesia/" target="_blank"><youtube class="svg-icon svg-white"/></a>
           </ul>
-        </div>
-      </div>
-      <div class="right">
         <img class="brand-logo-footer" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
-        <p>Nec aspera terrent!</p>
+        <p class="wahlspruch">Nec aspera terrent!</p>
+        <ul>
+          <a class="link link-light link-footer-small" href="https://www.cartellverband.de" target="_blank">Cartellverband (CV)</a>
+          <a class="link link-light link-footer-small" href="https://www.opole.pl/" target="_blank">{{ $t('footer.city') }}</a>
+          <a class="link link-light link-footer-small" href="https://www.salia-silesia.eu/datenschutzerklaerung" target="_blank">{{ $t('footer.privacyStatement') }}</a>
+          <a class="link link-light link-footer-small last-elem" href="https://www.salia-silesia.eu/impressum" target="_blank">Impressum</a>
+        </ul>
+        <p class="watermark">© A.V. Salia Silesia Gleiwitz zu Oppeln</p>
       </div>
     </div>
   </footer>
@@ -34,11 +35,15 @@
 <script>
 
 import instagram from "../assets/Icons/instagram-brands.svg";
+import facebook from "../assets/Icons/facebook-brands.svg";
+import youtube from "../assets/Icons/youtube-brands.svg";
 
 export default {
   name: "footer",
   components: {
-    instagram
+    instagram,
+    facebook,
+    youtube
   },
 };
 </script>
@@ -61,109 +66,97 @@ footer {
   }
 
   .container {
-    padding: 25px 25px;
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-
 
     @media (min-width: 800px) {
       flex-direction: row;
       gap: 0px;
     }
-    > div {
-      display: flex;
-      flex: 1;
+
+    .watermark {
+      font-size: 15px;
+      margin-bottom: 10px;
     }
+    
+    .wahlspruch {
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
     .left {
-      gap: 32px;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
+      text-align: center;
       align-items: center;
+      color: #fff;
+
       @media (min-width: 800px) {
-        flex-direction: row;
         align-items: initial;
         gap: 0;
       }
-      .header {
-        text-align: center;
-        font-size: 24px;
-        color: #fff;
-        margin-bottom: 16px;
-        text-decoration: none;
-        font-weight: 600;
-        @media (min-width: 800px) {
-          text-align: initial;
-        }
-      }
-      ul {
-        gap: 16px;
-        list-style: none;
-        display: flex;
-      }
-      .col-1,
-      .col-2 {
-        gap: 32px;
-        display: flex;
-        flex: 1;
-        @media (min-width: 800px) {
-          gap: 0;
-        }
-      }
-      .col-1 {
-        flex-direction: column;
-        h2 {
-          text-align: center;
-          @media (min-width: 800px) {
-            text-align: initial;
-          }
-        }
-        ul {
-          margin-top: auto;
-          li {
-            display: flex;
-            align-items: center;
-            .svg-icon {
-              width: 24px;
-              height: auto;
-              color: #fff;
-            }
-          }
-        }
-      }
-      .col-2 {
-        ul {
-          height: 100%;
-          justify-content: center;
-          flex-direction: row;
-          flex-wrap: wrap;
-          @media (min-width: 800px) {
-            flex-direction: column;
-          }
-          .link {
-            font-size: 16px;
-            font-weight: 500;
-            color: #fff;
-            text-decoration: none;
-          }
-        }
-      }
-    }
-    .right {
-      gap: 32px;
-      color: #fff;
-      align-items: center;
-      flex-direction: column;
-      @media (min-width: 800px) {
-        align-items: flex-end;
-        gap: 0;
-      }
-    }
-    p {
-      margin-top: auto;
-    }
-  }
 
+      .brand-logo-footer {
+        height: 15vh;
+        width: 15vh;
+        margin-bottom: 30px;
+      }
+
+      ul {
+        padding-bottom: 30px;
+        margin: auto;
+        gap: 32px;
+
+        .svg-icon {
+          width: 40px;
+          height: 40px;
+          margin-right: 30px;
+        }
+
+        .svg-orange {
+          color: orange;
+        }
+      
+        .svg-black {
+          color: #0e0e0e;
+        }
+
+        .svg-white {
+          color: #f1f1f1;
+        }
+      }
+    }
+
+    .link {
+      margin-left: 15px;
+      font-size: 20px;
+      list-style-type: circle;
+
+      &:hover {
+        color: orange;
+        transition: color 0.5s ease;
+      }
+
+      &::after {
+        margin-left: 10px;
+        content: " \2022";
+
+      }
+
+    }
+
+    .last-elem::after {
+      content: "";
+    }
+
+    .link-footer-small {
+      font-size: 15px;
+      color: darkorange;
+
+      &:hover {
+        color: #f1f1f1;
+        transition: color 0.5s ease;
+      }
+    }
+    
+  }
 }
 </style>

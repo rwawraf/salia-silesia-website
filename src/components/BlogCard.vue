@@ -3,9 +3,9 @@
         <img :src="require(`../assets/blogCards/${post.blogCoverPhoto}.jpg`)" alt="" />
         <div class="info">
             <h4>{{ post.blogTitle }}</h4>
-            <h6>Posted on: {{ post.blogDate }}</h6>
+            <h6>{{ $t('blogCard.postedOn') }} {{ post.blogDate }}</h6>
             <router-link class="link" :to="{ name: 'ViewBlogPost', params: { blogid: this.post.blogID } }">
-                Post anschauen <Arrow class="arrow" />
+                {{ $t('blogCard.showPostLink') }} <Arrow class="arrow" />
             </router-link>
         </div>
     </div>

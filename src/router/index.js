@@ -20,7 +20,7 @@ const routes = [
     name: "Posts",
     component: BlogCardCollection,
     meta: {
-      title: 'Beiträge'
+      title: 'Posts'
     }
   },
   {
@@ -28,7 +28,7 @@ const routes = [
     name: "ViewBlogPost",
     component: ViewBlogPost,
     meta: {
-      title: 'View Blog'
+      title: 'View Blog',
     },
   },
 ];
