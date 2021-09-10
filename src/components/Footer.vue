@@ -6,11 +6,11 @@
     <div class="container">
       <div class="left">
           <ul>
-            <router-link class="link link-light" :to="{ name: 'Home' }">{{ $t('navigation.home') }}</router-link>
-            <router-link class="link link-light" to="#">{{ $t('navigation.aboutUs') }}</router-link>
-            <router-link class="link link-light" to="#">{{ $t('navigation.program') }}</router-link>
-            <router-link class="link link-light" :to="{ name: 'Posts' }">{{ $t('navigation.posts') }}</router-link>
-            <router-link class="link link-light last-elem" to="#">{{ $t('navigation.kontakt') }}</router-link>
+            <router-link class="link link-light" :to="`/${$i18n.locale}/`">{{ $t('navigation.home') }}</router-link>
+            <router-link class="link link-light" :to="`/${$i18n.locale}/about-us`">{{ $t('navigation.aboutUs') }}</router-link>
+            <router-link class="link link-light" :to="`/${$i18n.locale}/program`">{{ $t('navigation.program') }}</router-link>
+            <router-link class="link link-light" :to="`/${$i18n.locale}/posts`">{{ $t('navigation.posts') }}</router-link>
+            <router-link class="link link-light last-elem" :to="`/${$i18n.locale}/contact`">{{ $t('navigation.kontakt') }}</router-link>
           </ul>
           <ul>
             <a href="https://www.instagram.com/salia_silesia/" target="_blank"><instagram class="svg-icon svg-white"/></a>

@@ -113,13 +113,57 @@ export default {
   }
 }
 
-.google-map-wrap {
+
+.contact-card-wrap {
+  text-align: center;
   position: relative;
+  padding: 20px 8px;
   background-color: #f1f1f1;
 
-  .google-map {
-    width: 100%;
-    height: 250px;
+  h3 {
+    margin: 36px 0px;
+    text-transform: uppercase;
+  }
+
+  .contact-cards-aktivitas {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 32px;
+    margin-bottom: 100px;
+
+    @media(min-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media(min-width: 900px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media(min-width: 1650px) {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  .contact-cards-philister {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 32px;
+    margin-bottom: 64px;
+
+    @media(min-width: 500px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media(min-width: 900px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media(min-width: 1200px) {
+      grid-template-columns: repeat(5, 1fr);
+    }
   }
 }
+
 </style>

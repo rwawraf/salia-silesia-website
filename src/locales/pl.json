@@ -1,0 +1,81 @@
+{
+    "home": {
+        "showMorePosts": "Zobacz powiązane posty"
+    },
+    "contact": {
+        "chargesAktivitas": "Die Chargen",
+        "chargesPhilister": "Die Philisterchargen"
+    },
+    "navigation": {
+        "home": "Home",
+        "aboutUs": "O nas",
+        "program": "Program",
+        "posts": "Posty",
+        "kontakt": "Kontakt"
+    },
+    "footer": {
+        "city": "Miasto Opole",
+        "privacyStatement": "Ochrona danych osobowych"
+    },
+    "carousel": {
+        "description": "Korporacja akademicka w Opolu"
+    },
+    "blogPost": {
+        "showMoreLink": "Dowiedz się więcej"
+    },
+    "blogCard": {
+        "postedOn": "Utworzono: ",
+        "showPostLink": "Zobacz post"
+    },
+    "welcomeScreen": {
+        "title": "Witamy!",
+        "blogPost": "Serdecznie witamy na stronie Korporacji Akademickiej Salia Silesia Gleiwitz zu Oppeln."
+    },
+    "blogPostArray": [
+        {
+          "blogTitle": "Witamy!",
+          "blogPreview": "Serdecznie witamy na stronie Korporacji Akademickiej Salia Silesia Gleiwitz zu Oppeln.",
+          "blogHTML": "Tekst artykułu powitalnego."
+        },
+        {
+          "blogTitle": "Nasze zasady (Prinzipien)",
+          "blogPreview": "Jakie wartości wyznajemy?",
+          "blogHTML": "Jakie wartości wyznajemy? Kim jesteśmy i po co żyjemy?"
+        },
+        {
+          "blogTitle": "Program semestralny",
+          "blogPreview": "Msza, wykład, czy też inne wydarzenie - tutaj znajdziesz wszystkie informacje na ten temat.",
+          "blogHTML": "Msza, wykład, czy też inne wydarzenie - tutaj znajdziesz wszystkie informacje na ten temat."
+        },
+        {
+          "blogTitle": "Historia",
+          "blogPreview": "Interesuje Cię nasza historia? Chcesz dowiedzieć się jak właściwie powstaliśmy i jak kształtowała się nasza organizacja na przestrzeni lat? Tutaj dowiesz się wszystkiego.",
+          "blogHTML": "Interesuje Cię nasza historia? Chcesz dowiedzieć się jak właściwie powstaliśmy i jak kształtowała się nasza organizacja na przestrzeni lat? Tutaj dowiesz się wszystkiego."
+        },
+        {
+          "blogTitle": "Kontakt",
+          "blogPreview": "Jeśli chcesz się z nami skontaktować, tutaj znajdziesz wszystkie potrzebne dane.",
+          "blogHTML": "Jeśli chcesz się z nami skontaktować, tutaj znajdziesz wszystkie potrzebne dane."
+        },
+        {
+          "blogTitle": "Wolne pokoje!",
+          "blogPreview": "Posiadamy wolne pokoje w naszym domu.",
+          "blogHTML": "Posiadamy wolne pokoje w naszym domu."
+        },
+        {
+          "blogTitle": "Wyjazd Aktivitas do Belgii",
+          "blogPreview": "Pojechaliśmy do Belgii w odwiedziny.",
+          "blogHTML": "Pojechaliśmy do Belgii w odwiedziny do KAV Lovania Löwen."
+        },
+        {
+          "blogTitle": "Wykład o pszczelarstwie",
+          "blogPreview": "Mieliśmy okazję spróbować różnych rodzajów miodu.",
+          "blogHTML": "Mieliśmy okazję spróbować różnych rodzajów miodu."
+        },
+        {
+          "blogTitle": "Semesterantrittskneippe w Jagdschloss Emilienhütte",
+          "blogPreview": "Tegoroczna knajpa otwierająca semestr była połączona z podwójnymi 40-tymi urodzinami.",
+          "blogHTML": "Tegoroczna knajpa otwierająca semestr była połączona z podwójnymi 40-tymi urodzinami."
+        }
+    ]
+}

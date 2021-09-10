@@ -58,4 +58,15 @@ div.home {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
+.google-map-wrap {
+  position: relative;
+  background-color: #303030;
+
+  .google-map {
+    width: 100%;
+    height: 400px;
+  }
+  
+}
 </style>

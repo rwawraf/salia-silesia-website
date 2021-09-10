@@ -10,35 +10,38 @@
             </div>
             <div class="nav-links">
                 <ul v-show="!mobile">
-                    <router-link class="link" :to="{ name: 'Home' }">{{ $t('navigation.home') }}</router-link>
-                    <router-link class="link" to="#">{{ $t('navigation.aboutUs') }}</router-link>
-                    <router-link class="link" to="#">{{ $t('navigation.program') }}</router-link>
-                    <router-link class="link" :to="{ name: 'Posts' }">{{ $t('navigation.posts') }}</router-link>
-                    <router-link class="link" to="#">{{ $t('navigation.kontakt') }}</router-link>
+                    <router-link class="link" :to="`/${$i18n.locale}/`">{{ $t('navigation.home') }}</router-link>
+                    <router-link class="link" :to="`/${$i18n.locale}/about-us`">{{ $t('navigation.aboutUs') }}</router-link>
+                    <router-link class="link" :to="`/${$i18n.locale}/program`">{{ $t('navigation.program') }}</router-link>
+                    <router-link class="link" :to="`/${$i18n.locale}/posts`">{{ $t('navigation.posts') }}</router-link>
+                    <router-link class="link" :to="`/${$i18n.locale}/contact`">{{ $t('navigation.kontakt') }}</router-link>
+                    <language-switcher class="lang-dropdown"></language-switcher>
                 </ul>
             </div>
         </nav>
         <menuIcon @click="toggleMobileNav" class="menu-icon" v-show="mobile"/>
         <transition name="mobile-nav">
             <ul class="mobile-nav" v-show="mobileNav">
-                    <img class="brand-logo-mobile" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
-                    <router-link class="link link-light" :to="{ name: 'Home' }">{{ $t('navigation.home') }}</router-link>
-                    <router-link class="link link-light" to="#">{{ $t('navigation.aboutUs') }}</router-link>
-                    <router-link class="link link-light" to="#">{{ $t('navigation.program') }}</router-link>
-                    <router-link class="link link-light" :to="{ name: 'Posts' }">{{ $t('navigation.posts') }}</router-link>
-                    <router-link class="link link-light" to="#">{{ $t('navigation.kontakt') }}</router-link>
-                </ul>
+                <img class="brand-logo-mobile" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
+                <router-link class="link link-light" :to="`/${$i18n.locale}/`">{{ $t('navigation.home') }}</router-link>
+                <router-link class="link link-light" :to="`/${$i18n.locale}/about-us`">{{ $t('navigation.aboutUs') }}</router-link>
+                <router-link class="link link-light" :to="`/${$i18n.locale}/program`">{{ $t('navigation.program') }}</router-link>
+                <router-link class="link link-light" :to="`/${$i18n.locale}/posts`">{{ $t('navigation.posts') }}</router-link>
+                <router-link class="link link-light" :to="`/${$i18n.locale}/contact`">{{ $t('navigation.kontakt') }}</router-link>
+            </ul>
         </transition>
     </header>
 </template>
 
 <script>
 import menuIcon from '../assets/Icons/bars-regular.svg';
+import LanguageSwitcher from './LanguageSwitcher.vue';
 
 export default {
     name: 'navigation',
     components: {
         menuIcon,
+        LanguageSwitcher,
     },
     data() {
         return {
@@ -91,6 +94,7 @@ header {
         }
     }
 
+
     nav {
         display: flex;
         padding: 25px 0;
@@ -98,14 +102,16 @@ header {
         .branding {
             display: flex;
             align-items: center;
-
+        
             .header {
-                font-weight: 600;
-                font-size: 24px;
+                font-weight: 900;
+                font-size: 18px;
                 color: #000;
                 text-decoration: none;
             }
         }
+
+
 
         .nav-links {
         position: relative;
@@ -115,6 +121,7 @@ header {
         justify-content: flex-end;
 
         ul {
+            margin-top: 15px;
             margin-right: 24px;
 
             .link {
@@ -140,11 +147,13 @@ header {
 
     .brand-logo {
         cursor: pointer;
+        flex: 1;
         position: relative;
         left: -10px;
-        top: -10px;
+        top: -5px;
         height: 80px;
         width: auto;
+        margin-right: 20px;
     }
 
     .brand-logo-mobile {

@@ -1,19 +1,29 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import createPersistedState from 'vuex-persistedstate'
 import i18n from '../i18n';
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  plugins: [createPersistedState()],
   state: {
+    language: 'de',
     welcomeScreen: {
       title: i18n.t(`welcomeScreen.title`),
       blogPost: i18n.t(`welcomeScreen.blogPost`),
       welcomeScreen: true,
       photo: "old-salia",
     },
+    contactCardsArray: [
+      { chargeTitle: "Senior \n(x)", chargeName: "Florian Kowol", chargeContact: "xd", chargeMail: "x@salia-silesia.eu", chargePhoto: "florian-kowol" },
+      { chargeTitle: "Consenior \n(xx)", chargeName: "Michael Wollny", chargeContact: "xd", chargeMail: "xx@salia-silesia.eu", chargePhoto: "michael-wollny" },
+      { chargeTitle: "Fuxmajor \n(FM)", chargeName: "Daniel Gora", chargeContact: "xd", chargeMail: "fm@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Scriptor \n(xxx)", chargeName: "Robert Piosek", chargeContact: "xd", chargeMail: "xxx@salia-silesia.eu", chargePhoto: "robert-piosek" },
+      { chargeTitle: "Quaestor \n(xxxx)", chargeName: "Thomas Kusiek", chargeContact: "xd", chargeMail: "xxxx@salia-silesia.eu", chargePhoto: "thomas-kusiek" },
+      { chargeTitle: "Philister-Senior \n(Phil-x)", chargeName: "Peter Rybczyk", chargeContact: "xd", chargeMail: "phil-x@salia-silesia.eu", chargePhoto: "peter-rybczyk" },
+      { chargeTitle: "Philister-Consenior \n(Phil-xx)", chargeName: "Robert Rybczyk", chargeContact: "xd", chargeMail: "phil-xx@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Philister-Scriptor \n(Phil-xxx)", chargeName: "Markus Heller", chargeContact: "xd", chargeMail: "phil-xxx@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Philister-Quaestor \n(Phil-xxxx)", chargeName: "Franz Ziegler", chargeContact: "xd", chargeMail: "phil-xxxx@salia-silesia.eu", chargePhoto: "xd" },
+    ],
     blogCardsArray: [
       { blogID: 5, blogTitle: i18n.t(`blogPostArray[5].blogTitle`), blogCoverPhoto: "haus-salia", blogDate: "August 25, 2021" },
       { blogID: 6, blogTitle: i18n.t(`blogPostArray[6].blogTitle`), blogCoverPhoto: "aktivenfahrt-belgien", blogDate: "August 25, 2021" },
@@ -35,12 +45,7 @@ export default new Vuex.Store({
         blogPreview: i18n.t(`blogPostArray[1].blogPreview`),
         blogHTML: i18n.t(`blogPostArray[1].blogHTML`),
         blogCoverPhoto: "salia-wappen",
-        blogAdditionalPhotos: [
-          "coding", "coding", "coding",
-          "coding", "coding", "coding",
-          "coding", "coding", "coding",
-          "coding", "coding", "coding",
-        ],
+        blogAdditionalPhotos: null,
       },
       {
         blogID: 2,
@@ -106,11 +111,29 @@ export default new Vuex.Store({
     },
     blogPostCards(state) {
       return state.blogCardsArray.slice(0, 4);
-    }
+    },
+    contactCardsAktivitas(state) {
+      return state.contactCardsArray.slice(0, 5);
+    },
+    contactCardsPhilister(state) {
+      return state.contactCardsArray.slice(5, 10);
+    },
+/*     translatedBlogCardsArray: (state, getters) => {
+      const locale = i18n.locale;
+      return state.items.map(item => ({
+        title: i18n.t(item.title)
+      }))
+    } */
+
+    getLanguage: state => state.language
   },
   mutations: {
+    changeLanguage (state, data) {
+      this.state.language = data
+    }
   },
   actions: {
+    changeLanguage: ({ commit }, data) => commit('changeLanguage', data)
   },
   modules: {
   }
