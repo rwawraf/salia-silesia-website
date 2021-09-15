@@ -3,20 +3,29 @@
         <div class="program-content-wrapper">
           <div class="program-content">
             <div>
-              <img class="brand-logo" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
-              <PdfViewer></PdfViewer>
+              <a href="/Semesterprogramm-SS-2020.pdf" download="salia-silesia-semesterprogramm">
+                <img class="brand-logo" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
+              </a>
               <h2>
                 Semesterprogramm
               </h2>
-              <p class="contact-data">
-                Willst du Semesterprogramm herunterladen?
-                <a href="/Semesterprogramm-SS-2020.pdf" download="salia-silesia-semesterprogramm">
-                    Hier kannst Du es machen.
-                </a>                
+              <p class="program-data">
+                Möchtest Du den aktuellen Semesterprogramm herunterladen?<br>
+                Bitte Wappen anklicken, um das zu machen.               
               </p>
             </div>
-          </div>
+          </div>         
         </div>
+        <div class="calendar">
+          <b-calendar 
+            block 
+            locale="de-DE"
+            style="padding: 18px 32px; background-color: #f1f1f1"  
+          ></b-calendar>  
+        </div>
+        <div class="pdf-viewer">
+          <PdfViewer></PdfViewer>
+        </div> 
     </div>
 </template>
 
@@ -30,8 +39,6 @@ export default {
   },
   data() {
     return {
-        currentPage: 1,
-        pageCount: 16,
     }  
   },
   computed: {
@@ -45,58 +52,59 @@ div.program {
   margin-bottom: 0;
 }
 
-
 .program-content-wrapper {
-  display: flex;
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
-  background-color: #f1f1f1;
+  background-color: #303030;
+  color: #f1f1f1;
 
   @media(min-width: 700px) {
-      min-height: 650px;
-      max-height: 1150px;
+      min-height: 450px;
+      max-height: 650px;
       flex-direction: row;
   }
-  
+
   .program-content {
     display: flex;
     justify-content: center;
+    text-align: justify;
+    align-items: center;
+  }
+
+  div {
+    justify-content: center;
     text-align: center;
     align-items: center;
-    flex: 4;
-    order: 2;
+    padding: 72px 24px;
 
     @media(min-width: 700px) {
-        order: 2;
+        padding: 0 24px;
     }
 
-    @media(min-width: 800px) {
-        flex: 3;
+    img {
+      margin: 36px;
     }
 
-    div {
-      max-width: 575px;
-      padding: 48px 24px;
-
-      @media(min-width: 700px) {
-          padding: 0 24px;
-      }
-
-      h2 {
-          font-size: 32px;
-          font-weight: 300;
-          text-transform: uppercase;
-          margin: 24px 0px;
-          @media(min-width: 700px) {
-              font-size: 40px;
-          }
-      }
-
-      p {
-          font-size: 16px;
-          font-weight: 300;
-          line-height: 1.7;
-      }
+    h2 {
+        margin: 12px;
+        font-size: 32px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+        @media(min-width: 700px) {
+            font-size: 40px;
+        }
     }
+
+    p {
+        font-weight: 300;
+        line-height: 1.7;
+    }
+
+    .program-data {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 48px;
+    }    
   }
 }
 </style>
