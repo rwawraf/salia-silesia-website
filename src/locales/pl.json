@@ -85,6 +85,24 @@
           "blogTitle": "Semesterantrittskneippe w Jagdschloss Emilienhütte",
           "blogPreview": "Tegoroczna knajpa otwierająca semestr była połączona z podwójnymi 40-tymi urodzinami.",
           "blogHTML": "Tegoroczna knajpa otwierająca semestr była połączona z podwójnymi 40-tymi urodzinami."
+        },
+        {
+          "blogTitle": "Semesterantrittskneippe w Jagdschloss Emilienhütte",
+          "blogPreview": "Tegoroczna knajpa otwierająca semestr była połączona z podwójnymi 40-tymi urodzinami.",
+          "blogHTML": [
+            {
+              "chapterTitle": "Tytuł rozdziału 1.",
+              "chapterHTML": "Tekst rozdziału 1."
+            },
+            {
+              "chapterTitle": "Tytuł rozdziału 2.",
+              "chapterHTML": "Tekst rozdziału 2."
+            },
+            {
+              "chapterTitle": "Tytuł rozdziału 3.",
+              "chapterHTML": "Tekst rozdziału 3."
+            }
+          ]
         }
     ]
 }

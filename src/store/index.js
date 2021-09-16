@@ -42,7 +42,6 @@ export default new Vuex.Store({
         blogHTML: i18n.t(`blogPostArray[0].blogHTML`),
         blogCoverPhoto: "old-salia",
         blogAdditionalPhotos: null,
-
       },
       {
         blogID: 1,
@@ -143,6 +142,49 @@ export default new Vuex.Store({
         blogHTML: i18n.t(`blogPostArray[8].blogHTML`),
         blogCoverPhoto: "semesterantrittskneipe-emilienhutte",
         blogAdditionalPhotos: null,
+      },
+      {
+        blogID: 13,
+        blogTitle: i18n.t(`blogPostArray[9].blogTitle`),
+        blogPreview: i18n.t(`blogPostArray[9].blogPreview`),
+        blogHTML: [
+          {
+            chapterTitle: i18n.t(`blogPostArray[9].blogHTML[0].chapterTitle`),
+            chapterHTML: i18n.t(`blogPostArray[9].blogHTML[0].chapterHTML`),
+            chapterPhotos: [
+              "old-salia",
+              "honigverkostung",
+              "aktivenfahrt-belgien",
+            ],
+          },
+          {
+            chapterTitle: i18n.t(`blogPostArray[9].blogHTML[1].chapterTitle`),
+            chapterHTML: i18n.t(`blogPostArray[9].blogHTML[1].chapterHTML`),
+            chapterPhotos: [
+              "old-salia",
+              "honigverkostung",
+              "aktivenfahrt-belgien",
+              "old-salia",
+              "honigverkostung",
+              "aktivenfahrt-belgien",
+              "old-salia",
+              "honigverkostung",
+            ],
+          },
+          {
+            chapterTitle: i18n.t(`blogPostArray[9].blogHTML[2].chapterTitle`),
+            chapterHTML: i18n.t(`blogPostArray[9].blogHTML[2].chapterHTML`),
+            chapterPhotos: [
+              "old-salia",
+              "honigverkostung",
+            ],
+          },
+        ],
+        blogCoverPhoto: "old-salia",
+        blogAdditionalPhotos: [
+          "coding", "coding", "coding", 
+          "coding","coding", "coding", 
+        ]
       },      
     ],
   },

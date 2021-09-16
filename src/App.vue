@@ -113,6 +113,42 @@ export default {
   }
 }
 
+.additional-photo-wrap {
+  position: relative;
+  padding: 30px 16px;
+  margin: 0px 30px;
+  background-color: #fff;
+  @media(min-width: 500px) {
+  padding: 0px 16px 30px 16px;
+  }
+
+  .additional-photos {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr;
+
+    @media(min-width: 700px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media(min-width: 900px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media(min-width: 1200px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    
+    @media(min-width: 1600px) {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    @media(min-width: 2000px) {
+      grid-template-columns: repeat(6, 1fr);
+    }        
+  }
+}
+
 
 .contact-card-wrap {
   text-align: center;
