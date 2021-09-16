@@ -10,11 +10,20 @@
                 <router-link class="link link-light" v-if="post.welcomeScreen" :to="{ name: 'ViewBlogPost', params: { blogid: 0 } }">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
-                <router-link class="link link-light" v-if="post.blogID % 2 == 0" :to="{ name: 'ViewBlogPost', params: { blogid: this.post.blogID } }">
+                <router-link class="link link-light" v-if="post.aboutUs" :to="`/${$i18n.locale}/about-us`">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
-                <router-link class="link link-blogpost" v-if="post.blogID % 2 == 1" :to="{ name: 'ViewBlogPost', params: { blogid: this.post.blogID } }">
-                    {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow"/>
+                <router-link class="link link-light" v-if="post.program" :to="`/${$i18n.locale}/program`">
+                    {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
+                </router-link>
+                <router-link class="link link-light" v-if="post.history" :to="`/${$i18n.locale}/history`">
+                    {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
+                </router-link>
+                <router-link class="link link-light" v-if="post.contact" :to="`/${$i18n.locale}/contact`">
+                    {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
+                </router-link>
+                <router-link class="link link-light" v-if="post.blogID > 5" :to="{ name: 'ViewBlogPost', params: { blogid: this.post.blogID } }">
+                    {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
             </div>
         </div>
@@ -44,8 +53,8 @@ export default {
         display: flex;
         flex-direction: column;
         box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
-        color: #303030;
-        background-color: #f1f1f1;
+        background-color: #303030;
+        color: #fff;
         
         @media(min-width: 700px) {
             min-height: 650px;
@@ -148,8 +157,6 @@ export default {
         &:nth-child(even) {
             .blog-content {
                 order: 2;
-                background-color: #303030;
-                color: #fff;
             }
             .blog-photo {
                 order: 1;

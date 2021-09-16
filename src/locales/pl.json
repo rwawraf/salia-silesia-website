@@ -6,6 +6,15 @@
         "chargesAktivitas": "Die Chargen",
         "chargesPhilister": "Die Philisterchargen"
     },
+    "program": {
+        "semestralProgram": "Program semestralny",
+        "downloadProgramInfo": "Chcesz pobrać aktualny program semestralny??<br>Kliknij na godło, aby rozpocząć pobieranie."
+    },
+    "pdfViewer": {
+        "showProgramTitle": "Chciałbyś przejrzeć wybrany program?",
+        "showProgramInfo": "W tym miejscu możesz przejrzeć aktualny lub poprzednie programy semestralne.",
+        "showProgramPrompt": "Wybierz program, który chcesz przejrzeć."
+    },
     "navigation": {
         "home": "Home",
         "aboutUs": "O nas",

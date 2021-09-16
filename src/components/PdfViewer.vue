@@ -3,14 +3,14 @@
 		<div class="pdf-controls">
 			<div class="pdf-controls-title">
 				<h3>
-					Möchtest Du ausgewählten Semesterprogramm anschauen?
+					{{ $t('pdfViewer.showProgramTitle') }}
 				</h3>
 				<p>
-					Hier kannst Du den aktuellen und vorherige Semesterprogramme ohne Herunterladen anschauen.
+					{{ $t('pdfViewer.showProgramInfo') }}
 				</p>
 			</div>
 			<p>
-				Wählen Sie bitte den Semesterprogramm aus.
+				{{ $t('pdfViewer.showProgramPrompt') }}
 			</p>
 			<b-form-select
 				v-model="src"

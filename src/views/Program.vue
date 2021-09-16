@@ -7,11 +7,10 @@
                 <img class="brand-logo" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
               </a>
               <h2>
-                Semesterprogramm
+                {{ $t('program.semestralProgram') }}
               </h2>
               <p class="program-data">
-                Möchtest Du den aktuellen Semesterprogramm herunterladen?<br>
-                Bitte Wappen anklicken, um das zu machen.               
+                {{ $t('program.downloadProgramInfo') }}              
               </p>
             </div>
           </div>         

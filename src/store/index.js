@@ -14,21 +14,25 @@ export default new Vuex.Store({
       photo: "old-salia",
     },
     contactCardsArray: [
-      { chargeTitle: "Senior \n(x)", chargeName: "Florian Kowol", chargeContact: "xd", chargeMail: "x@salia-silesia.eu", chargePhoto: "florian-kowol" },
-      { chargeTitle: "Consenior \n(xx)", chargeName: "Michael Wollny", chargeContact: "xd", chargeMail: "xx@salia-silesia.eu", chargePhoto: "michael-wollny" },
-      { chargeTitle: "Fuxmajor \n(FM)", chargeName: "Daniel Gora", chargeContact: "xd", chargeMail: "fm@salia-silesia.eu", chargePhoto: "xd" },
-      { chargeTitle: "Scriptor \n(xxx)", chargeName: "Robert Piosek", chargeContact: "xd", chargeMail: "xxx@salia-silesia.eu", chargePhoto: "robert-piosek" },
-      { chargeTitle: "Quaestor \n(xxxx)", chargeName: "Thomas Kusiek", chargeContact: "xd", chargeMail: "xxxx@salia-silesia.eu", chargePhoto: "thomas-kusiek" },
-      { chargeTitle: "Philister-Senior \n(Phil-x)", chargeName: "Peter Rybczyk", chargeContact: "xd", chargeMail: "phil-x@salia-silesia.eu", chargePhoto: "peter-rybczyk" },
-      { chargeTitle: "Philister-Consenior \n(Phil-xx)", chargeName: "Robert Rybczyk", chargeContact: "xd", chargeMail: "phil-xx@salia-silesia.eu", chargePhoto: "xd" },
-      { chargeTitle: "Philister-Scriptor \n(Phil-xxx)", chargeName: "Markus Heller", chargeContact: "xd", chargeMail: "phil-xxx@salia-silesia.eu", chargePhoto: "xd" },
-      { chargeTitle: "Philister-Quaestor \n(Phil-xxxx)", chargeName: "Franz Ziegler", chargeContact: "xd", chargeMail: "phil-xxxx@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Senior \n(x)", chargeName: "Florian Kowol", chargeContact: "+48 693 809 376", chargeMail: "x@salia-silesia.eu", chargePhoto: "florian-kowol" },
+      { chargeTitle: "Consenior \n(xx)", chargeName: "Michael Wollny", chargeContact: "+48 886 808 043", chargeMail: "xx@salia-silesia.eu", chargePhoto: "michael-wollny" },
+      { chargeTitle: "Fuxmajor \n(FM)", chargeName: "Daniel Gora", chargeContact: "leer", chargeMail: "fm@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Scriptor \n(xxx)", chargeName: "Robert Piosek", chargeContact: "+48 692 830 622", chargeMail: "xxx@salia-silesia.eu", chargePhoto: "robert-piosek" },
+      { chargeTitle: "Quaestor \n(xxxx)", chargeName: "Thomas Kusiek", chargeContact: "+48 884 120 167", chargeMail: "xxxx@salia-silesia.eu", chargePhoto: "thomas-kusiek" },
+      { chargeTitle: "Philister-Senior \n(Phil-x)", chargeName: "Peter Rybczyk", chargeContact: "+48 604 411 265", chargeMail: "phil-x@salia-silesia.eu", chargePhoto: "peter-rybczyk" },
+      { chargeTitle: "Philister-Consenior \n(Phil-xx)", chargeName: "Christian Kalisch", chargeContact: "+49 511 22510", chargeMail: "phil-xx@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Philister-Scriptor \n(Phil-xxx)", chargeName: "Markus Heller", chargeContact: "leer", chargeMail: "phil-xxx@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Philister-Quaestor \n(Phil-xxxx)", chargeName: "Franz Josef Ziegler", chargeContact: "+49 89 42017791", chargeMail: "phil-xxxx@salia-silesia.eu", chargePhoto: "xd" },
     ],
     blogCardsArray: [
       { blogID: 5, blogTitle: i18n.t(`blogPostArray[5].blogTitle`), blogCoverPhoto: "haus-salia", blogDate: "August 25, 2021" },
       { blogID: 6, blogTitle: i18n.t(`blogPostArray[6].blogTitle`), blogCoverPhoto: "aktivenfahrt-belgien", blogDate: "August 25, 2021" },
       { blogID: 7, blogTitle: i18n.t(`blogPostArray[7].blogTitle`), blogCoverPhoto: "honigverkostung", blogDate: "Juli 28, 2021" },
       { blogID: 8, blogTitle: i18n.t(`blogPostArray[8].blogTitle`), blogCoverPhoto: "semesterantrittskneipe-emilienhutte", blogDate: "März 16, 2021" },
+      { blogID: 9, blogTitle: i18n.t(`blogPostArray[7].blogTitle`), blogCoverPhoto: "honigverkostung", blogDate: "Juli 28, 2021" },
+      { blogID: 10, blogTitle: i18n.t(`blogPostArray[8].blogTitle`), blogCoverPhoto: "semesterantrittskneipe-emilienhutte", blogDate: "März 16, 2021" },
+      { blogID: 11, blogTitle: i18n.t(`blogPostArray[7].blogTitle`), blogCoverPhoto: "honigverkostung", blogDate: "Juli 28, 2021" },
+      { blogID: 12, blogTitle: i18n.t(`blogPostArray[8].blogTitle`), blogCoverPhoto: "semesterantrittskneipe-emilienhutte", blogDate: "März 16, 2021" },
     ],
     blogPostArray: [
       {
@@ -38,6 +42,7 @@ export default new Vuex.Store({
         blogHTML: i18n.t(`blogPostArray[0].blogHTML`),
         blogCoverPhoto: "old-salia",
         blogAdditionalPhotos: null,
+
       },
       {
         blogID: 1,
@@ -46,6 +51,7 @@ export default new Vuex.Store({
         blogHTML: i18n.t(`blogPostArray[1].blogHTML`),
         blogCoverPhoto: "salia-wappen",
         blogAdditionalPhotos: null,
+        aboutUs: true,
       },
       {
         blogID: 2,
@@ -54,6 +60,7 @@ export default new Vuex.Store({
         blogHTML: i18n.t(`blogPostArray[2].blogHTML`),
         blogCoverPhoto: "semesterprogramm",
         blogAdditionalPhotos: null,
+        program: true,
       },
       {
         blogID: 3,
@@ -62,6 +69,7 @@ export default new Vuex.Store({
         blogHTML: i18n.t(`blogPostArray[3].blogHTML`),
         blogCoverPhoto: "geschichte-salia",
         blogAdditionalPhotos: null,
+        history: true,
       },
       {
         blogID: 4,
@@ -70,6 +78,7 @@ export default new Vuex.Store({
         blogHTML: i18n.t(`blogPostArray[4].blogHTML`),
         blogCoverPhoto: "haus-salia",
         blogAdditionalPhotos: null,
+        contact: true,
       },
       {
         blogID: 5,
@@ -103,6 +112,38 @@ export default new Vuex.Store({
         blogCoverPhoto: "semesterantrittskneipe-emilienhutte",
         blogAdditionalPhotos: null,
       },
+      {
+        blogID: 9,
+        blogTitle: i18n.t(`blogPostArray[7].blogTitle`),
+        blogPreview: i18n.t(`blogPostArray[7].blogPreview`),
+        blogHTML: i18n.t(`blogPostArray[7].blogHTML`),
+        blogCoverPhoto: "honigverkostung",
+        blogAdditionalPhotos: null,
+      },
+      {
+        blogID: 10,
+        blogTitle: i18n.t(`blogPostArray[8].blogTitle`),
+        blogPreview: i18n.t(`blogPostArray[8].blogPreview`),
+        blogHTML: i18n.t(`blogPostArray[8].blogHTML`),
+        blogCoverPhoto: "semesterantrittskneipe-emilienhutte",
+        blogAdditionalPhotos: null,
+      },
+      {
+        blogID: 11,
+        blogTitle: i18n.t(`blogPostArray[7].blogTitle`),
+        blogPreview: i18n.t(`blogPostArray[7].blogPreview`),
+        blogHTML: i18n.t(`blogPostArray[7].blogHTML`),
+        blogCoverPhoto: "honigverkostung",
+        blogAdditionalPhotos: null,
+      },
+      {
+        blogID: 12,
+        blogTitle: i18n.t(`blogPostArray[8].blogTitle`),
+        blogPreview: i18n.t(`blogPostArray[8].blogPreview`),
+        blogHTML: i18n.t(`blogPostArray[8].blogHTML`),
+        blogCoverPhoto: "semesterantrittskneipe-emilienhutte",
+        blogAdditionalPhotos: null,
+      },      
     ],
   },
   getters: {

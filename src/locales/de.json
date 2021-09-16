@@ -2,6 +2,15 @@
     "home": {
         "showMorePosts": "Relevante Posts anschauen"
     },
+    "program": {
+        "semestralProgram": "Semesterprogramm",
+        "downloadProgramInfo": "Möchtest Du den aktuellen Semesterprogramm herunterladen?<br>Bitte Wappen anklicken, um das zu machen."
+    },
+    "pdfViewer": {
+        "showProgramTitle": "Möchtest Du ausgewählten Semesterprogramm anschauen?",
+        "showProgramInfo": "Hier kannst Du den aktuellen und vorherige Semesterprogramme ohne Herunterladen anschauen.",
+        "showProgramPrompt": "Wählen Sie bitte den Semesterprogramm aus."
+    },
     "contact": {
       "chargesAktivitas": "Die Chargen",
       "chargesPhilister": "Die Philisterchargen"
