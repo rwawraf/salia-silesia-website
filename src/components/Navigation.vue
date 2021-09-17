@@ -11,7 +11,7 @@
             <div class="nav-links">
                 <ul v-show="!mobile">
                     <router-link class="link" :to="`/${$i18n.locale}/`">{{ $t('navigation.home') }}</router-link>
-                    <router-link class="link" :to="`/${$i18n.locale}/about-us`">{{ $t('navigation.aboutUs') }}</router-link>
+                    <router-link class="link" :to="{ name: 'ViewBlogPost', params: { blogid: 1 } }">{{ $t('navigation.aboutUs') }}</router-link>
                     <router-link class="link" :to="`/${$i18n.locale}/program`">{{ $t('navigation.program') }}</router-link>
                     <router-link class="link" :to="`/${$i18n.locale}/posts`">{{ $t('navigation.posts') }}</router-link>
                     <router-link class="link" :to="`/${$i18n.locale}/contact`">{{ $t('navigation.kontakt') }}</router-link>
@@ -24,7 +24,7 @@
             <ul class="mobile-nav" v-show="mobileNav">
                 <img class="brand-logo-mobile" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
                 <router-link class="link link-light" :to="`/${$i18n.locale}/`">{{ $t('navigation.home') }}</router-link>
-                <router-link class="link link-light" :to="`/${$i18n.locale}/about-us`">{{ $t('navigation.aboutUs') }}</router-link>
+                <router-link class="link link-light" :to="{ name: 'ViewBlogPost', params: { blogid: 1 } }">{{ $t('navigation.aboutUs') }}</router-link>
                 <router-link class="link link-light" :to="`/${$i18n.locale}/program`">{{ $t('navigation.program') }}</router-link>
                 <router-link class="link link-light" :to="`/${$i18n.locale}/posts`">{{ $t('navigation.posts') }}</router-link>
                 <router-link class="link link-light" :to="`/${$i18n.locale}/contact`">{{ $t('navigation.kontakt') }}</router-link>

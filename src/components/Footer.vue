@@ -7,7 +7,7 @@
       <div class="left">
           <ul>
             <router-link class="link link-light" :to="`/${$i18n.locale}/`">{{ $t('navigation.home') }}</router-link>
-            <router-link class="link link-light" :to="`/${$i18n.locale}/about-us`">{{ $t('navigation.aboutUs') }}</router-link>
+            <router-link class="link link-light" :to="{ name: 'ViewBlogPost', params: { blogid: 1 } }">{{ $t('navigation.aboutUs') }}</router-link>
             <router-link class="link link-light" :to="`/${$i18n.locale}/program`">{{ $t('navigation.program') }}</router-link>
             <router-link class="link link-light" :to="`/${$i18n.locale}/posts`">{{ $t('navigation.posts') }}</router-link>
             <router-link class="link link-light last-elem" :to="`/${$i18n.locale}/contact`">{{ $t('navigation.kontakt') }}</router-link>
@@ -23,8 +23,7 @@
         <ul>
           <a class="link link-light link-footer-small" href="https://www.cartellverband.de" target="_blank">Cartellverband (CV)</a>
           <a class="link link-light link-footer-small" href="https://www.opole.pl/" target="_blank">{{ $t('footer.city') }}</a>
-          <a class="link link-light link-footer-small" href="https://www.salia-silesia.eu/datenschutzerklaerung" target="_blank">{{ $t('footer.privacyStatement') }}</a>
-          <a class="link link-light link-footer-small last-elem" href="https://www.salia-silesia.eu/impressum" target="_blank">Impressum</a>
+          <router-link class="link link-light link-footer-small last-elem" :to="{ name: 'ViewBlogPost', params: { blogid: 9 } }">{{ $t('footer.privacyStatement') }}</router-link>
         </ul>
         <p class="watermark">© A.V. Salia Silesia Gleiwitz zu Oppeln</p>
       </div>

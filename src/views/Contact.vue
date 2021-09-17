@@ -8,6 +8,7 @@
             </div>
         </div>
         <div class="contact-data-wrapper">
+          <img class="band-navbar" src="../assets/navbarImages/band.jpg"/>          
           <div class="contact-data-content">
             <div>
               <h2>
@@ -27,6 +28,7 @@
           </div>
         </div>
         <div class="contact-card-wrap">
+            <img class="band-navbar" src="../assets/navbarImages/band.jpg"/> 
             <div class="container">
                 <h3>{{ $t('contact.chargesAktivitas') }}</h3><br>
                 <div class="contact-cards-aktivitas">
@@ -95,6 +97,13 @@ div.contact {
       flex-direction: row;
   }
   
+  .band-navbar {
+      width: 100%;
+      height: 15px;
+      left: 0;
+      position: absolute;
+  }
+
   .contact-data-content {
     display: flex;
     flex-direction: column;

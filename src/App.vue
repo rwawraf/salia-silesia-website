@@ -93,6 +93,14 @@ export default {
     padding: 100px 16px;
   }
 
+  .band-navbar {
+    width: 100%;
+    height: 15px;
+    left: 0;
+    top: -10px;
+    position: absolute;
+  }
+
   .blog-cards {
     display: grid;
     gap: 32px;
@@ -155,6 +163,14 @@ export default {
   position: relative;
   padding: 20px 8px;
   background-color: #f1f1f1;
+  
+  .band-navbar {
+      width: 100%;
+      height: 15px;
+      left: 0;
+      top: -10px;
+      position: absolute;
+  }
 
   h3 {
     margin: 36px 0px;

@@ -7,16 +7,16 @@
                 <h2 v-else>{{ post.blogTitle }}</h2>
                 <p v-if="post.welcomeScreen">{{ post.blogPost }}</p>
                 <p v-else class="content-preview" v-html="post.blogPreview"></p>
-                <router-link class="link link-light" v-if="post.welcomeScreen" :to="{ name: 'ViewBlogPost', params: { blogid: 0 } }">
+                <!-- <router-link class="link link-light" v-if="post.welcomeScreen" :to="{ name: 'ViewBlogPost', params: { blogid: 0 } }">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
-                </router-link>
-                <router-link class="link link-light" v-if="post.aboutUs" :to="`/${$i18n.locale}/about-us`">
+                </router-link> -->
+                <router-link class="link link-light" v-if="post.aboutUs" :to="{ name: 'ViewBlogPost', params: { blogid: 1 } }">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
                 <router-link class="link link-light" v-if="post.program" :to="`/${$i18n.locale}/program`">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
-                <router-link class="link link-light" v-if="post.history" :to="`/${$i18n.locale}/history`">
+                <router-link class="link link-light" v-if="post.history" :to="{ name: 'ViewBlogPost', params: { blogid: 3 } }">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
                 <router-link class="link link-light" v-if="post.contact" :to="`/${$i18n.locale}/contact`">

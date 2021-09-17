@@ -1,5 +1,6 @@
 <template>
 	<div class="pdf-viewer-wrapper">
+		<img class="band-navbar" src="../assets/navbarImages/band.jpg"/>
 		<div class="pdf-controls">
 			<div class="pdf-controls-title">
 				<h3>
@@ -86,6 +87,14 @@ export default {
       min-height: 650px;
       flex-direction: row;
   }
+
+	.band-navbar {
+		width: 100%;
+		height: 15px;
+		left: 0;
+		position: absolute;
+	}
+
   
   .pdf-controls {
     display: flex;

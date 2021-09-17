@@ -4,6 +4,7 @@
     <BlogPost :post="welcomeScreen" />
     <BlogPost :post="post" v-for="(post, index) in blogPostFeed" :key="index"/>
     <div class="blog-card-wrap">
+      <img class="band-navbar" src="../assets/navbarImages/band.jpg"/>
       <div class="container">
         <h3>{{ $t('home.showMorePosts') }}</h3><br>
         <div class="blog-cards">

@@ -3,7 +3,6 @@
         <b-dropdown id="dropdown-1" :text="`${$i18n.locale.toUpperCase()}`">
             <b-dropdown-item><a href="#" @click.prevent="setLocale('de')">DE</a></b-dropdown-item>
             <b-dropdown-item><a href="#" @click.prevent="setLocale('pl')">PL</a></b-dropdown-item>
-            <b-dropdown-item><a href="#" @click.prevent="setLocale('en')">EN</a></b-dropdown-item>
 
             <!-- <b-dropdown-item><a href="#" @click.prevent="de">DE</a></b-dropdown-item>
             <b-dropdown-item><a href="#" @click.prevent="pl">PL</a></b-dropdown-item>

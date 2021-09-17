@@ -6,8 +6,8 @@
           <img class="wappen" :src="require(`../assets/blogPhotos/${this.currentPost[0].blogCoverPhoto}.jpg`)" alt="" />
           <div class="post-content" v-for="chapter in this.currentPost[0].blogHTML" :key="chapter">
               <div class="chapter-content">
-                  <h4>{{ chapter.chapterTitle }}</h4>
-                  <p>{{ chapter.chapterHTML }}</p>
+                  <h4 v-if="chapter.chapterTitle">{{ chapter.chapterTitle }}</h4>
+                  <p v-html="chapter.chapterHTML"></p>
                   <div class="chapter-photo-wrap">
                     <div class="chapter-photos">
                         <b-img class="chapter-photo" thumbnail fluid v-bind="photoProps" v-for="(photo, i) in chapter.chapterPhotos" :key="photo"
@@ -117,7 +117,7 @@ export default {
   .wappen {
     display: block;
     width: 100%;
-    height: 100%;
+    max-height: 500px;
     object-fit: cover;
     margin: 0 auto;
     margin-bottom: 48px;
@@ -132,11 +132,14 @@ export default {
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 24px;
+    margin-left: 24px;
   }
 
   p {
     padding: 24px;
     font-size: 18px;
+    text-align: justify;
+    white-space: pre-line;
   }
 
   .single-photo {
