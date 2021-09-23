@@ -16,12 +16,12 @@ export default new Vuex.Store({
     contactCardsArray: [
       { chargeTitle: "Senior \n(x)", chargeName: "Florian Kowol", chargeContact: "+48 693 809 376", chargeMail: "x@salia-silesia.eu", chargePhoto: "florian-kowol" },
       { chargeTitle: "Consenior \n(xx)", chargeName: "Michael Wollny", chargeContact: "+48 886 808 043", chargeMail: "xx@salia-silesia.eu", chargePhoto: "michael-wollny" },
-      { chargeTitle: "Fuxmajor \n(FM)", chargeName: "Daniel Gora", chargeContact: "leer", chargeMail: "fm@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Fuxmajor \n(FM)", chargeName: "Daniel Gora", chargeContact: "+49 1637879478", chargeMail: "fm@salia-silesia.eu", chargePhoto: "xd" },
       { chargeTitle: "Scriptor \n(xxx)", chargeName: "Robert Piosek", chargeContact: "+48 692 830 622", chargeMail: "xxx@salia-silesia.eu", chargePhoto: "robert-piosek" },
       { chargeTitle: "Quaestor \n(xxxx)", chargeName: "Thomas Kusiek", chargeContact: "+48 884 120 167", chargeMail: "xxxx@salia-silesia.eu", chargePhoto: "thomas-kusiek" },
       { chargeTitle: "Philister-Senior \n(Phil-x)", chargeName: "Peter Rybczyk", chargeContact: "+48 604 411 265", chargeMail: "phil-x@salia-silesia.eu", chargePhoto: "peter-rybczyk" },
       { chargeTitle: "Philister-Consenior \n(Phil-xx)", chargeName: "Christian Kalisch", chargeContact: "+49 511 22510", chargeMail: "phil-xx@salia-silesia.eu", chargePhoto: "xd" },
-      { chargeTitle: "Philister-Scriptor \n(Phil-xxx)", chargeName: "Markus Heller", chargeContact: "leer", chargeMail: "phil-xxx@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Philister-Scriptor \n(Phil-xxx)", chargeName: "Markus Heller", chargeContact: "+49 1733835315", chargeMail: "phil-xxx@salia-silesia.eu", chargePhoto: "xd" },
       { chargeTitle: "Philister-Quaestor \n(Phil-xxxx)", chargeName: "Franz Josef Ziegler", chargeContact: "+49 89 42017791", chargeMail: "phil-xxxx@salia-silesia.eu", chargePhoto: "xd" },
     ],
     blogCardsArray: [
@@ -62,8 +62,15 @@ export default new Vuex.Store({
               "amicitia",
               "schlesien-karte",
               "oppeln"
-            ]
+            ],
           }
+        ],
+        slideshowImages: [
+          require("../assets/blogPhotos/chapterPhotos/cathedral.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/technische-universitat.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/amicitia.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/schlesien-karte.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/oppeln.jpg"),              
         ],
         blogCoverPhoto: "salia-wappen",
         blogAdditionalPhotos: null,
@@ -132,6 +139,14 @@ export default new Vuex.Store({
             chapterTitle: i18n.t(`blogPostArray[3].blogHTML[7].chapterTitle`),
             chapterHTML: i18n.t(`blogPostArray[3].blogHTML[7].chapterHTML`),
           },
+        ],
+        slideshowImages: [
+          require("../assets/blogPhotos/chapterPhotos/grundung-1.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/grundung-2.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/grundung-3.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/merk-poster.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/merk-leute.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/breslau-kommers.jpg"),            
         ],
         blogCoverPhoto: "geschichte-salia",
         blogAdditionalPhotos: null,

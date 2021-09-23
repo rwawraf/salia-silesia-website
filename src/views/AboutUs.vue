@@ -1,7 +1,7 @@
 <template>
     <div id="kotki">
-        <img class="image" v-for="(image, i) in images" :src="image" :key="i" @click="index = i">
-        <vue-gallery-slideshow :images="images" :index="index" @close="index = null"></vue-gallery-slideshow>
+        <img class="image" v-for="(image, i) in thumbnailImages" :src="require(`../assets/blogPhotos/chapterPhotos/${image}.jpg`)" :key="i" @click="index = i">
+        <vue-gallery-slideshow :images="slideshowImages" :index="index" @close="index = null"></vue-gallery-slideshow>
     </div>
 </template>
 
@@ -15,17 +15,17 @@ export default {
   },
   data() {
     return {
-        images: [
-        'https://placekitten.com/801/800',
-        'https://placekitten.com/802/800',
-        'https://placekitten.com/803/800',
-        'https://placekitten.com/804/800',
-        'https://placekitten.com/805/800',
-        'https://placekitten.com/806/800',
-        'https://placekitten.com/807/800',
-        'https://placekitten.com/808/800',
-        'https://placekitten.com/809/800',
-        'https://placekitten.com/810/800'
+        thumbnailImages: [
+          'amicitia',
+          'grundung-1',
+          'grundung-2',
+          'grundung-3',
+        ],
+        slideshowImages: [
+          require("../assets/blogPhotos/chapterPhotos/amicitia.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/grundung-1.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/grundung-2.jpg"),
+          require("../assets/blogPhotos/chapterPhotos/grundung-3.jpg"),
         ],
         index: null
     }  

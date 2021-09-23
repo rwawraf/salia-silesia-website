@@ -5,6 +5,7 @@ import store from "./store";
 import Vue2Editor from "vue2-editor";
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import i18n from "./i18n";
+import VCalendar from 'v-calendar';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
@@ -12,6 +13,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 Vue.use(Vue2Editor);
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
+Vue.use(VCalendar);
 
 router.beforeEach((to, from, next) => {
   let language = to.params.lang;
