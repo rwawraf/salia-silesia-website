@@ -3,12 +3,13 @@
         "showMorePosts": "Zobacz powiązane posty"
     },
     "contact": {
+        "contactData": "Dane kontaktowe",
         "chargesAktivitas": "Die Chargen",
         "chargesPhilister": "Die Philisterchargen"
     },
     "program": {
         "semestralProgram": "Program semestralny",
-        "downloadProgramInfo": "Chcesz pobrać aktualny program semestralny??<br>Kliknij na godło, aby rozpocząć pobieranie."
+        "downloadProgramInfo": "Chcesz pobrać aktualny program semestralny??\nKliknij na godło, aby rozpocząć pobieranie."
     },
     "pdfViewer": {
         "showProgramTitle": "Chciałbyś przejrzeć wybrany program?",
@@ -36,73 +37,142 @@
         "postedOn": "Utworzono: ",
         "showPostLink": "Zobacz post"
     },
+    "calendar": {
+        "language": "pl"
+    },
     "welcomeScreen": {
         "title": "Witamy!",
         "blogPost": "Serdecznie witamy na stronie Korporacji Akademickiej Salia Silesia Gleiwitz zu Oppeln."
     },
     "blogPostArray": [
-        {
-          "blogTitle": "Witamy!",
-          "blogPreview": "Serdecznie witamy na stronie Korporacji Akademickiej Salia Silesia Gleiwitz zu Oppeln.",
-          "blogHTML": "Tekst artykułu powitalnego."
-        },
-        {
-          "blogTitle": "Nasze zasady (Prinzipien)",
-          "blogPreview": "Jakie wartości wyznajemy?",
-          "blogHTML": "Jakie wartości wyznajemy? Kim jesteśmy i po co żyjemy?"
-        },
-        {
-          "blogTitle": "Program semestralny",
-          "blogPreview": "Msza, wykład, czy też inne wydarzenie - tutaj znajdziesz wszystkie informacje na ten temat.",
-          "blogHTML": "Msza, wykład, czy też inne wydarzenie - tutaj znajdziesz wszystkie informacje na ten temat."
-        },
-        {
-          "blogTitle": "Historia",
-          "blogPreview": "Interesuje Cię nasza historia? Chcesz dowiedzieć się jak właściwie powstaliśmy i jak kształtowała się nasza organizacja na przestrzeni lat? Tutaj dowiesz się wszystkiego.",
-          "blogHTML": "Interesuje Cię nasza historia? Chcesz dowiedzieć się jak właściwie powstaliśmy i jak kształtowała się nasza organizacja na przestrzeni lat? Tutaj dowiesz się wszystkiego."
-        },
-        {
-          "blogTitle": "Kontakt",
-          "blogPreview": "Jeśli chcesz się z nami skontaktować, tutaj znajdziesz wszystkie potrzebne dane.",
-          "blogHTML": "Jeśli chcesz się z nami skontaktować, tutaj znajdziesz wszystkie potrzebne dane."
-        },
-        {
-          "blogTitle": "Wolne pokoje!",
-          "blogPreview": "Posiadamy wolne pokoje w naszym domu.",
-          "blogHTML": "Posiadamy wolne pokoje w naszym domu."
-        },
-        {
-          "blogTitle": "Wyjazd Aktivitas do Belgii",
-          "blogPreview": "Pojechaliśmy do Belgii w odwiedziny.",
-          "blogHTML": "Pojechaliśmy do Belgii w odwiedziny do KAV Lovania Löwen."
-        },
-        {
-          "blogTitle": "Wykład o pszczelarstwie",
-          "blogPreview": "Mieliśmy okazję spróbować różnych rodzajów miodu.",
-          "blogHTML": "Mieliśmy okazję spróbować różnych rodzajów miodu."
-        },
-        {
-          "blogTitle": "Semesterantrittskneippe w Jagdschloss Emilienhütte",
-          "blogPreview": "Tegoroczna knajpa otwierająca semestr była połączona z podwójnymi 40-tymi urodzinami.",
-          "blogHTML": "Tegoroczna knajpa otwierająca semestr była połączona z podwójnymi 40-tymi urodzinami."
-        },
-        {
-          "blogTitle": "Semesterantrittskneippe w Jagdschloss Emilienhütte",
-          "blogPreview": "Tegoroczna knajpa otwierająca semestr była połączona z podwójnymi 40-tymi urodzinami.",
-          "blogHTML": [
-            {
-              "chapterTitle": "Tytuł rozdziału 1.",
-              "chapterHTML": "Tekst rozdziału 1."
-            },
-            {
-              "chapterTitle": "Tytuł rozdziału 2.",
-              "chapterHTML": "Tekst rozdziału 2."
-            },
-            {
-              "chapterTitle": "Tytuł rozdziału 3.",
-              "chapterHTML": "Tekst rozdziału 3."
-            }
-          ]
-        }
-    ]
+      {
+        "blogTitle": "Willkommen!",
+        "blogPreview": "Die Akademische Verbindung AV Salia-Silesia Gleiwitz zu Oppeln im CV wurde am 7. April 1992 durch deutschstämmige schlesische katholische Studenten in Oberschlesien gegründet. 1993 wurde sie zunächst als Freie Vereinigung, 1996 als Vollmitglied in den Cartellverband Katholischer Deutscher Studendenverbindung (CV) aufgenommen."
+      },
+      {
+        "blogTitle": "Unsere Prinzipien",
+        "blogPreview": "Für welche Prinzipien bekennen wir uns? Was ist für uns wichtig und motiviert uns jedes Mal?",
+        "blogHTML": [
+          {
+            "chapterTitle": "Über uns",
+            "chapterHTML": "Die Akademische Verbindung <b>AV Salia-Silesia Gleiwitz zu Oppeln im CV</b> wurde am 7. April 1992 durch deutschstämmige schlesische katholische Studenten in Oberschlesien gegründet. 1993 wurde sie zunächst als 'Freie Vereinigung', 1996 als Vollmitglied in den <b>Cartellverband Katholischer Deutscher Studendenverbindung (CV)</b> aufgenommen. Ihre Verbindungsfarben sind schwarz-orange auf weißem Grund. Als eine schlesische Verbindung vertritt sie ihr vaterländisches Prinzip als die Verbundenheit zur schlesischen Heimat und als ein Streben für ein friedliches Zusammenleben der Völker in Europa. \n\n Die Aktiven der AV Salia-Silesia sind deutschstämmige schlesische Studenten, die an schlesischen Hochschulen studieren oder katholische Studenten aus Deutschland. Die meisten Alten Herren sind - außer den eigenen Urphilistern – Schlesier, die nach Deutschland vertrieben bzw. umgesiedelt sind. In den meisten Fällen sind sie bereits Urmitglieder von CV-Verbindungen in Deutschland oder ÖCV-Verbindungen in Österreich. Ein wachsender Anteil jüngerer Alter Herren aus Deutschland hat in der Elterngeneration schlesische Wurzeln. \n\n Die AV Salia-Silesia ist assoziiertes Mitglied im <b>Verband der deutschen Sozial-Kulturellen Gesellschaften in Polen VdG</b>. \n "
+          },
+          {
+            "chapterTitle": "Unsere Prinzipien",
+            "chapterHTML": "Die Mitglieder der Verbindung bekennen sich zu den vier Prinzipien des CV: \n\n <b>religio</b>:   Wir bekennen uns zum katholischen Glauben und zur christlichen Wertegesellschaft. Dieses Prinzip ist fester Bestandteil unseres Verbindungslebens ebenso wie des täglichen Miteinanders. \n\n <b>scientia</b>:  Das Prinzip Wissenschaft bedeutet für uns nicht nur Bemühen im Studium, sondern ständige Weiterbildung über die Studienzeit und die Fakultätsgrenzen hinaus. Durch Vorträge, Seminare und das tägliche Gespräch versuchen wir diesem Prinzip gerecht zu werden. \n\n <b>amicitia</b>:  Freundschaft ist die wichtigste Voraussetzung für den Bestand unserer Verbindung. Sie ist integratives Moment zwischen den Berufsgruppen und Generationen und ist Voraussetzung des Lebensbundes über die Zeit des Studiums hinaus. \n\n <b>patria</b>:   Der Begriff Vaterland bedeutet für uns Verbundenheit zu unserer schlesischen Heimat. Wir treten entschieden für ein friedliches Zusammenleben der Völker in Europa und in der Welt ein und bekennen uns zur Demokratie und zur Freiheit als den tragenden Prinzipien unseres Zusammenlebens. \n\n"              
+          }
+        ]
+      },
+      {
+        "blogTitle": "Semesterprogramm",
+        "blogPreview": "Ob Gottesdienst, Vortrag oder Party – hier finden sich unsere kommenden Veranstaltungstermine."
+      },
+      {
+        "blogTitle": "Geschichte",
+        "blogPreview": "Möchten Sie mehr über unsere Vereinigung erfahren? Dann sind Sie bei uns genau richtig! Eine interessante Geschichte über Freundschaften zwischen den Generationen wird Ihre Aufmerksamkeit erregen.",
+        "blogHTML": [
+          {
+            "chapterTitle": "Der CV in Schlesien",
+            "chapterHTML": "Der Cartellverband der katholischen Studentenverbindungen CV entsteht in der Mitte des 19. Jh. als Gegenbewegung zum Bestreben des preußischen Staates, den Einfluss der katholischen Kirche zurückzudrängen (Kulturkampf, Akademischer Kulturkampf). Katholische Studenten schließen sich zusammen und gründen katholische Verbindungen (KDStV Bavaria Bonn 1844, KDStV Aenania München 1851, KDStV Winfridia Breslau 1856 (heute in Münster). Aenania sucht Kontakt zu anderen katholischen Verbindungen und geht 1856 ein Cartellverhältnis mit Winfridia ein. Das ist das Gründungsjahr des CV. \n\n In Breslau entstehen weitere vier katholische Verbindungen, die sich dem CV anschließen. Aufgrund der stark anwachsenden Winfridia entstehen durch zwei Teilungen die CV-Verb. Rheno-Palatia 1900 (heute in Mainz) und die KDStV Salia 1904 (1975 fusioniert mit der AV Rheinland Köln). 1910 wird die KDStV Marchia (heute Aachen) gegründet und 1924 die KDStV Greiffenstein (heute Frankfurt). Nicht nur in Breslau als einzige Universitätsstadt in Schlesien ist ein blühendes CV-Leben vorhanden, auch im Industriegebiet Oberschlesien und in den ländlichen Provinzen sind CV-Zirkel bis zum Beginn der Auflösungen der CV-Verbindungen ab 1934 und dem endgültigen Ende 1938 aktiv."
+          },
+          {
+            "chapterTitle": "Gründung der Aktivitas Salia-Silesia",
+            "chapterHTML": "Nach fast 60 jähriger Pause durch das Verbot des CVs im Dritten Reich und der kommunistischen Herrschaft in Polen nach 1945 ist 1992 mit der Gründung der AV Salia-Silesia Gleiwitz das CV-Leben nach Schlesien zurückgekehrt. Kurz nach der Wende 1989 entsteht zunächst in Pécs / Fünfkirchen in Ungarn eine CV-Verbindung hinter dem ehemaligen Eisernen Vorhang, die AV Suebo-Danubia. Auf Drängen von ehemaligen Mitgliedern der Salia Breslau wird nach dem Vorbild der Suebo-Danubia die Salia-Silesia in Oberschlesien gegründet. Die Initiative dazu ergreift der CVer Damian Schwider (Rheno-Franconia), der einige Jahre zuvor aus Hindenburg / Zabrze in Oberschlesien ausgesiedelt ist und familiäre Bindungen zur alten Salia hat. \n\n Der Altherrenverband Salia wird nach dem Krieg 1949 in Paderborn wiederbegründet, die Aktivitas 1953 in Köln. Allerdings findet sie nicht mehr zur alten Blüte zurück, insbesondere die Zeit nach der 68er Studentenrevolution macht ihr zu schaffen und so fusioniert sie 1975 mit der KDStV Rheinland Köln. In Erinnerung an die aufgelöste Salia übernehmen die Gründer der Salia-Silesia ihre Farben orange-schwarz auf weißem Grund in umgekehrter Reihenfolge, den Wahlspruch „Nec aspera terrent“ (auch Widerwärtigkeiten schrecken nicht) und das Wappen in etwas abgewandelter Form. \n\n Die Publikationsfeier findet am 21. November 1992 im Schloss Wiegschütz / Pałac Większyce statt. Über hundert CVer und Gäste sind aus Deutschland angereist, 11 Verbindungen chargieren: Aenania München (1), Winfridia (Breslau) Münster (2), Ferdinandea (Prag) Heidelberg (19), Rheno-Franconia München (24), Borusso-Saxonia Berlin (26), Rheno-Palatia (Breslau) Mainz (28), Nassovia Darmstadt (33), Saxo-Silesia Hannover (48), Tuiskonia München (57), Cheruscia Würzburg (60) und Rheinland Köln (63). (Die Nummer in Klammern ist die CV-Nummer). Die Messe findet vor dem Kommers auf dem Sankt Annaberg statt, erstmals chargieren in der Wallfahrtskirche wieder CV-Verbindungen. \n\n 1993 erfolgt auf der Cartellversammlung (C.V.) in Berlin die Aufnahme in den CV zunächst als „Freie Vereinigung“ 1996 auf der C.V. in Marburg als vollberechtigtes Mitglied mit der CV-Nummer 124. Zum 25. Stiftungsfest 2017 hat Salia-Silesia die CV-Nummer 120. Die Gründungsburschen mit dem Gründungssenior Heinrich Ziegler sind Studenten der Ingenieurwissenschaften, die in Gleiwitz und Oppeln studieren und Mitglieder der Jugendgruppen der deutschen Minderheit sind. Man trifft sich in der „alten Schmiede“ in Zawada, das den Jugendgruppen vom Deutschen Freundeskreis (DFK) Gleiwitz zur Verfügung steht. Bald entsteht der Wunsch nach einem eigenen Heim. Unklar ist noch, wo das Haus stehen soll, in Gleiwitz, dem Ort, an dem die Verbindung gegründet wurde, Oppeln, aus dessen Umgebung die meisten Studenten kommen oder weiterhin ein ländlicher Sitz, wie es Zawada ist. Bei der Standortfestlegung gibt es unterschiedliche Auffassungen, die Debatten darüber sind erst mit dem Kauf eines Grundstückes in Oppeln 2003 beendet."
+          },
+          {
+            "chapterTitle": "Gründung von drei Vereinen",
+            "chapterHTML": "Drei Jahre nach der Gründung der Aktivitas ist 1995 ist die Gründung eines Altherrenverbandes Salia-Silesia notwendig geworden, bereits 21 Alten Herren tragen als Bandphilister das Salia-Silesia Band. Ein Jahr später wird Manfred Schmidt (Winfridia) zum ersten Philistersenior gewählt. \n\n Für eine rechtmäßige Existenz der Verbindung in Polen ist die Gründung eines Vereins nach polnischem Recht notwendig. 1996 wird der Towarzystwo Akademickie AV Salia-Silesia im Vereinsregister des Wojwodschaftsgerichts in Oppeln eingetragen. 1998 erfolgt die Gründung des Studentenfördervereins Silesia e.V. in Würzburg nach deutschem Recht. Beide Vereine sind die Voraussetzung für die Beschaffung eines Verbindungshauses. Der Erwerb des Grundstückes 2003 kann nur durch den polnischen Verein erfolgen, da zu diesem Zeitpunkt noch ein Verbot des Erwerbs von Grundstücken durch Ausländer besteht. Zwar werden rasch Pläne für ein Verbindungshaus erstellt, die Baugenehmigung durch die Stadt Oppeln zieht sich aber über mehrere Jahre bis 2009 hin."
+          },
+          {
+            "chapterTitle": "Erwerb einer Immobile für das Verbindungshaus",
+            "chapterHTML": "Während dieser Zeit verlegt die Technische Universität ihren Campus in den Südwesten Oppelns, sodass die Grundstückslage im Osten der Stadt sich für die Studenten als ungünstig erweist. Von der Bebauung wird Abstand genommen und eine Immobilie in günstiger Lage zum Campus des Polytechnikums erworben. Somit hat die Verzögerung der Baugenehmigung, die zunächst Unmut hervorgerufen hat, sich im Nachhinein als günstig erwiesen. Die Finanzierung ist durch die Beiträge und Spenden der Mitglieder insbesondere des Studentenfördervereins in Deutschland über mehr als 10 Jahre gesichert. Eine Baugenehmigung für den Um- und Ausbau wird rasch erreicht. Nach notwendig gewordenen Änderungen der ursprünglichen Planung kann das Haus im Wintersemester 2016/17, also rechtzeitig vor dem 25. Stiftungsfest, für die Studenten genutzt werden."
+          },
+          {
+            "chapterTitle": "Freunschaftsverhältnis mit der KDStV Wildenstein Freiburg",
+            "chapterHTML": "Die weiten Entfernungen von der Universitätsstadt Oppeln zu den Universitätsstädten in Deutschland erschweren die Kontakte zu den übrigen CV-Verbindungen. Man kann nicht so einfach spontan andere Verbindungshäuser in der gleichen Stadt besuchen, Kreuzkneipen erfordern lange Anfahrtswege. Trotzdem wird versucht, einen engen Kontakt zu den CV-Verbindungen zu pflegen. Seit 2005 gibt es häufige gegenseitige Besuche zwischen der 1000 km entfernten KDStV Wildenstein Freiburg und der Salia-Silesia, das besondere Verhältnis beider Korporationen wird beim 20. Stiftungsfest 2012 mit einem Freundschaftsverhältnis und einem Bändertausch besiegelt."
+          },
+          {
+            "chapterTitle": "Die Mitteleuropäische Ringkneipe MERK",
+            "chapterHTML": "Im Jahre 2000 wird in Prag die KStV Pragensis (im EKV) von Schülern des österreichischen Gymnasiums in Prag mit Unterstützung von CV- und ÖCV-Mitgliedern gegründet. Dabei entsteht die Idee eines engen Austausches der drei katholischen Verbindungen im sächsisch-schlesisch-böhmischen Dreieck als ein Beitrag zur europäischen Integration. Einmal jährlich (am Anfang sogar zweimal) treffen sich die Chursachsen aus Dresden, die Pragenser aus Prag und die Salia-Silesier zur „Mitteleuropäischen Ringkneipe“ MERK in einem der drei Länder mit einem touristischen Programm, einem Gottesdienst und der Festkneipe. Die Gastgeberrolle übernimmt jeweils die Verbindung, in deren Region die MERK stattfindet. Die erste Ringkneipe findet im Dezember 2000 in Krummhübel / Karpacs Riesengebirge statt. Ein für Salia-Silesia besonderer Ort mit symbolischer Bedeutung ist Kreisau / Krzyżowa in Niederschlesien auf dem Gutshof von Helmuth James Graf von Moltke für die 10. Ringkneipe 2007. Hier trifft sich während des 2. Weltkrieges die Widerstandsgruppe um Graf Moltke und hier feiern 1989 Kanzler Helmut Kohl, der polnische Ministerpräsident Tadeusz Mazowiecki und der Bischof von Oppeln Alfons Nossol die deutsch-polnische Versöhnungsmesse nach dem Mauerfall."
+          },
+          {
+            "chapterTitle": "In Breslau finden wieder Kommerse statt",
+            "chapterHTML": "Die ehemaligen Breslauer CV-Verbindungen kommen gerne an ihren Ursprungsort zurück. Ein geeigneter Ort für die Zusammenkünfte ist das ehemalige Verbindungshaus der Rheno-Palatia Breslau zu Mainz mit seiner idealen Lage an der Oder in unmittelbarer Nähe zur Dominsel. Es hat den Krieg relativ gut überstanden. Das heutige Hotel Tumski erinnert im Foyer an die frühere studentische Geschichte mit Fotos und Couleurartikeln. 2002 schlagen die ehemaligen Breslauer Verbindungen Rheno-Palatia und Marchia zusammen mit der Salia-Silesia in Breslau zum ersten Mal seit der Auflösung des CVs wieder einen Kommers. Auch die übrigen noch existierenden Breslauer CV-Verbindungen Winfridia und Greiffenstein kommen zum Teil öfters zu Besuch, Salia-Silesia begleitet die Besuchergruppen und chargiert bei den Kommersen im Hotel Tumski. Im Oktober 2011 im Rahmen der 200-Jahr-Feier der Universität Breslau schlägt Winfridia einen Kommers und verleiht dem Erzbischof von Breslau Prof. Dr. Marian Gołębiewski das Winfriden-Ehrenband. Salia-Silesia feiert in diesem Rahmen seine Semesterantrittskneipe."
+          },
+          {
+            "chapterTitle": "Mitgliederentwicklung",
+            "chapterHTML": "Zum 25 jährigen Bestehen 2017 zählt die Verbindung 171 Mitglieder, davon 78 Urmitglieder und 93 Bandmitgliedern. Einen starken Zuwachs von Bandphilistern aus Deutschland erfolgt in den Jahren 1996 (36) und 1997 (27), bei der Aktivitas gibt es hohe Rezeptionszahlen in den Jahren 2000 (17) und 2001 (8)."
+          }
+        ]
+      },
+      {
+        "blogTitle": "Kontakt",
+        "blogPreview": "Wenn Sie Student oder Mitglied einer anderen Verbindung sind und mit uns Kontakt aufnehmen oder uns besuchen möchten, finden Sie hier alles."
+      },
+      {
+        "blogTitle": "Zimmer frei!",
+        "blogPreview": "Zimmer sind frei.",
+        "blogHTML": [
+          {
+            "chapterTitle": "Freie Zimmer adH",
+            "chapterHTML": "Bei uns sind Zimmer frei."
+          }
+        ]
+      },
+      {
+        "blogTitle": "Aktivenfahrt nach Belgien",
+        "blogPreview": "Wir sind nach Belgien gefahren.",
+        "blogHTML": [
+          {
+            "chapterTitle": "Einladung von Loevania Loeven",
+            "chapterHTML": "Wir sind im Juni nach Belgien gefahren."
+          }
+        ]
+      },
+      {
+        "blogTitle": "Honigvortrag mit Verkostung",
+        "blogPreview": "Bei uns fand ein Honigverkostung statt.",
+        "blogHTML": [
+          {
+            "chapterTitle": "Was passiert im Imkerei?",
+            "chapterHTML": "Bei uns fand ein Honigverkostung Statt."
+          }
+        ]
+      },
+      {
+        "blogTitle": "Semesterantrittskneippe bei Jagdschloss Emilienhütte",
+        "blogPreview": "Die Zwillinge haben Geburtstag gehabt.",
+        "blogHTML": [
+          {
+            "chapterTitle": "50 Geburstag von Rybczyk Brudern!",
+            "chapterHTML": "Wir haben den 50-ten Geburtstag von Peter und Robert Rybczyk gefeiert."
+          }
+        ]
+      },
+      {
+        "blogTitle": "Impressum und Datenschutz",
+        "blogHTML": [
+          {
+            "chapterTitle": "Herausgeber des Internetauftritts",
+            "chapterHTML": "AV Salia-Silesia \n ul. Hlouszka 12 \n 45-772 Opole \n Polen \n\n Die Verbindung wird durch den Philistersenior (phil.x) vertreten. \n phil.x@salia-silesia.eu \n\n Urheberrecht für alle Inhalte \n © AV Salia-Silesia – alle Rechte vorbehalten. \n\n Falls nicht anders angegeben, unterliegen alle Seiten auf diesem Internetauftritt dem Urheberrecht (Copyright). Inhalt und Struktur dieses Internetauftritts sind urheberrechtlich geschützt. Die Vervielfältigung von Informationen oder Daten, insbesondere die Verwendung von Texten, Textteilen oder Bildmaterial bedarf der vorherigen Zustimmung des jeweiligen Rechtsinhabers. \n Alle Dateien können ganz oder teilweise dem Urheberrecht Dritter unterliegen. \n\n Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten der jeweiligen eingetragenen Eigentümer."
+          },
+          {
+            "chapterTitle": "Haftungsausschluss und -beschränkung",
+            "chapterHTML": "Alle im Internetauftritt “AV Salia-Silesia” enthaltenen Angaben und Informationen sind sorgfältig recherchiert, nach bestem Wissen und Gewissen erarbeitet und geprüft und werden laufend aktualisiert. Es kann jedoch keine Haftung oder Garantie für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität und jederzeitige Verfügbarkeit der bereit gestellten Informationen übernommen werden. \n\n Unbeschadet der Regelungen des § 675 Absatz 2 BGB gilt für das bereitgestellte Informationsangebot folgende."
+          },
+          {
+            "chapterTitle": "Haftungsbeschränkung",
+            "chapterHTML": "Der bzw. die Verantwortlichen haften nicht für Schäden, die durch die Nutzung oder Nichtnutzung der im Internetangebot “AV Salia-Silesia” angebotenen Informationen entstehen. Für etwaige Schäden, die beim Aufrufen oder Herunterladen von Daten durch Computerviren oder bei der Installation oder Nutzung von Software verursacht werden, wird nicht gehaftet. \n\n Namentlich gekennzeichnete Internetseiten geben die Auffassungen und Erkenntnisse der abfassenden Personen wieder. \n\n Es bleibt ausdrücklich vorbehalten, einzelne Webseiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen."
+          },
+          {
+            "chapterTitle": "Disclaimer für Verweise auf andere Internetseiten",
+            "chapterHTML": "“AV Salia-Silesia” ist nur für die eigenen Inhalte, die es zur Nutzung bereithält, nach den einschlägigen Gesetzen verantwortlich. Von diesen eigenen Inhalten sind Querverweise (Links) auf die Webseiten anderer Anbieter zu unterscheiden. Durch den als Link gekennzeichneten Querverweis ermöglicht “AV Salia-Silesia” den Zugang zu fremden Inhalten. \n\n Durch den Querverweis vermittelt “AV Salia-Silesia” lediglich den Zugang zur Nutzung dieser Inhalte. Für die fremden Inhalte ist “AV Salia-Silesia” nicht verantwortlich, da es die Übermittlung der Information nicht veranlasst, den Adressaten der übermittelten Informationen nicht auswählt und die übermittelten Informationen auch nicht ausgewählt oder verändert hat. \n\n Bei der erstmaligen Verknüpfung mit diesen Internetangeboten hat die Redaktion der “AV Salia-Silesia” den fremden Inhalt daraufhin überprüft, ob durch ihn eine mögliche Verantwortlichkeit ausgelöst wird. Sobald “AV Salia-Silesia”  jedoch feststellt oder von anderen darauf hingewiesen wird, dass ein konkretes Angebot, zu dem es einen Link bereitgestellt hat, eine Verantwortlichkeit auslöst, wird es den Verweis auf dieses Angebot unverzüglich aufheben, soweit es technisch möglich und zumutbar ist. \n\n Für illegale, fehlerhafte oder unvollständige Inhalte und insbes. für Schäden, die aus der Nutzung oder Nichtnutzung von Informationen Dritter entstehen, haftet allein der jeweilige Anbieter der Seite, auf welche verwiesen wurde. \n\n Lichtbilder \n\n Veröffentliche Lichtbilder ohne näheren Angaben stammen vom Herausgeber und Betreiber dieses Internetauftritts."
+          },
+          {
+            "chapterTitle": "Datenschutzerklärung",
+            "chapterHTML": "Diese Datenschutzerklärung dient zur Erfüllung der nach Artikel 13 EU DSGVO geforderten Informationspflicht bei Erhebung von Daten zum Zeitpunkt der Erhebung bei betroffenen Personen. \n\n <i>Rechte und Beschwerdemöglichkeiten</i> \n Sie haben das Recht sich bei datenschutzrechtlichen Problemen beim Verantwortlichen dieser Website (s. oben) zu beschweren. \n\n <i>Informationen über gespeicherte Daten</i> \n Personenbezogene Daten sind Informationen, mit deren Hilfe eine natürliche Person bestimmbar ist, also Angaben, mit denen Personen identifiziert werden können. Dazu gehören insbesondere Namen, E-Mail-Adressen, oder Telefonnummern. Aber auch Daten über Vorlieben, Hobbies, Mitgliedschaften oder auch Informationen über Webseiten, die aufgesucht wurden, zählen zu personenbezogenen Daten. \n\n Da diese Website ausschließlich der Information dient und keine Möglichkeiten vorgesehen sind, z.B. Kommentare zu hinterlassen, erheben wir prinzipiell keine personenbezogenen Daten von Besuchern unserer Website. \n\n Aus technischen Gründen kann es jedoch in einigen Aspekten nicht vermieden werden, dass Daten, die gemäß DSVGO schützenswert sind, automatisch registriert werden. Hierzu zählen insbesondere Daten, die im Rahmen so genannter „Cookies“ gespeichert werden. \n\n Cookies sind kleine Dateien, die es ermöglichen, auf dem verwendeten Endgerät (PC, Smartphone o.ä.) gezielte, auf das Gerät bezogene Informationen zu speichern. Sie dienen in der Regel der Benutzerfreundlichkeit von Webseiten (z.B. Darstellung in der mobilen Ansicht). \n\n Jeder Benutzer kann auf den Einsatz der Cookies Einfluss nehmen: die meisten Browser verfügen über eine Option, mit der das Speichern von Cookies eingeschränkt oder komplett verhindert werden kann. Allerdings wird darauf hingewiesen, dass die Nutzung und insbesondere der Nutzungskomfort ohne Cookies eingeschränkt sein kann."
+          }
+        ]
+      }
+  ]
 }

@@ -2,18 +2,19 @@
     "home": {
         "showMorePosts": "Relevante Posts anschauen"
     },
+    "contact": {
+      "contactData": "Kontaktdaten",      
+      "chargesAktivitas": "Die Chargen",
+      "chargesPhilister": "Die Philisterchargen"
+    },    
     "program": {
         "semestralProgram": "Semesterprogramm",
-        "downloadProgramInfo": "Möchtest Du den aktuellen Semesterprogramm herunterladen?<br>Bitte Wappen anklicken, um das zu machen."
+        "downloadProgramInfo": "Möchten Sie den aktuellen Semesterprogramm herunterladen?\nBitte, klicken Sie Wappen an, um es zu machen."
     },
     "pdfViewer": {
         "showProgramTitle": "Möchtest Du ausgewählten Semesterprogramm anschauen?",
-        "showProgramInfo": "Hier kannst Du den aktuellen und vorherige Semesterprogramme ohne Herunterladen anschauen.",
+        "showProgramInfo": "Hier können Sie den aktuellen und vorherige Semesterprogramme ohne Herunterladen anschauen.",
         "showProgramPrompt": "Wählen Sie bitte den Semesterprogramm aus."
-    },
-    "contact": {
-      "chargesAktivitas": "Die Chargen",
-      "chargesPhilister": "Die Philisterchargen"
     },
     "navigation": {
         "home": "Home",
@@ -36,6 +37,9 @@
         "postedOn": "Erstellt am: ",
         "showPostLink": "Post anschauen"
     },
+    "calendar": {
+      "language": "de"
+    },    
     "welcomeScreen": {
         "title": "Wilkommen!",
         "blogPost": "Die Akademische Verbindung AV Salia/-Silesia Gleiwitz zu Oppeln im CV wurde am 7. April 1992 durch deutschstämmige schlesische katholische Studenten in Oberschlesien gegründet. 1993 wurde sie zunächst als Freie Vereinigung, 1996 als Vollmitglied in den Cartellverband Katholischer Deutscher Studendenverbindung (CV) aufgenommen. Ihre Verbindungsfarben sind schwarz-orange auf weißem Grund. Als eine schlesische Verbindung vertritt sie ihr vaterländisches Prinzip als die Verbundenheit zur schlesischen Heimat und als ein Streben für ein friedliches Zusammenleben der Völker in Europa."

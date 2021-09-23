@@ -1,7 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import AboutUs from "../views/AboutUs.vue";
 import Program from "../views/Program.vue";
 import Contact from "../views/Contact.vue";
 import BlogCardCollection from "../views/BlogCardCollection.vue";
@@ -27,14 +26,6 @@ const routes = [
         component: Home,
         meta: {
           title: 'Home'
-        }
-      },
-      {
-        path: "about-us",
-        name: "AboutUs",
-        component: AboutUs,
-        meta: {
-          title: 'About us'
         }
       },
       {

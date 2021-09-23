@@ -12,7 +12,7 @@
           <div class="contact-data-content">
             <div>
               <h2>
-                Kontaktdaten
+                {{ $t('contact.contactData') }}
               </h2>
               <p class="contact-data">
                 Salia Silesia Gleiwitz zu Oppeln im CV<br>

@@ -22,7 +22,7 @@
             :columns="$screens({ default: 1, md: 2, lg: 2, xl: 3 })"
             :rows="$screens({ default: 2, xl: 2 })"
             :attributes='attributes'
-            locale="pl"
+            :locale="$t('calendar.language')"
           />
         </div>
         <div class="pdf-viewer">
@@ -420,6 +420,7 @@ div.program {
         font-size: 18px;
         text-align: center;
         margin-bottom: 48px;
+        white-space: pre-line;
     }    
   }
 }
