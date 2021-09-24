@@ -19,7 +19,7 @@
                 </ul>
             </div>
         </nav>
-        <menuIcon @click="toggleMobileNav" class="menu-icon" v-show="mobile"/>
+        <menuIcon @click="toggleMobileNav" v-on-clickaway="disableMobileNav" class="menu-icon" v-show="mobile"/>
         <transition name="mobile-nav">
             <ul class="mobile-nav" v-show="mobileNav">
                 <img class="brand-logo-mobile" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
@@ -36,9 +36,12 @@
 <script>
 import menuIcon from '../assets/Icons/bars-regular.svg';
 import LanguageSwitcher from './LanguageSwitcher.vue';
+import { mixin as clickaway } from 'vue-clickaway';
+
 
 export default {
     name: 'navigation',
+    mixins: [ clickaway ],
     components: {
         menuIcon,
         LanguageSwitcher,
@@ -68,6 +71,10 @@ export default {
 
         toggleMobileNav() {
             this.mobileNav = !this.mobileNav;
+        },
+
+        disableMobileNav() {
+            this.mobileNav = false;
         },
     }
 };

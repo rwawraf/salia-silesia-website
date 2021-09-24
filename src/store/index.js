@@ -15,17 +15,18 @@ export default new Vuex.Store({
     },
     contactCardsArray: [
       { chargeTitle: "Senior \n(x)", chargeName: "Florian Kowol", chargeContact: "+48 693 809 376", chargeMail: "x@salia-silesia.eu", chargePhoto: "florian-kowol" },
-      { chargeTitle: "Consenior \n(xx)", chargeName: "Michael Wollny", chargeContact: "+48 886 808 043", chargeMail: "xx@salia-silesia.eu", chargePhoto: "michael-wollny" },
+      { chargeTitle: "Consenior \n(xx)", chargeName: "Michael Wollny", chargeContact: "+48 886 808 043", chargeMail: "xx@salia-silesia.eu", chargePhoto: "xd" },
       { chargeTitle: "Fuxmajor \n(FM)", chargeName: "Daniel Gora", chargeContact: "+49 1637879478", chargeMail: "fm@salia-silesia.eu", chargePhoto: "xd" },
       { chargeTitle: "Scriptor \n(xxx)", chargeName: "Robert Piosek", chargeContact: "+48 692 830 622", chargeMail: "xxx@salia-silesia.eu", chargePhoto: "robert-piosek" },
-      { chargeTitle: "Quaestor \n(xxxx)", chargeName: "Thomas Kusiek", chargeContact: "+48 884 120 167", chargeMail: "xxxx@salia-silesia.eu", chargePhoto: "thomas-kusiek" },
+      { chargeTitle: "Quaestor \n(xxxx)", chargeName: "Thomas Kusiek", chargeContact: "+48 884 120 167", chargeMail: "xxxx@salia-silesia.eu", chargePhoto: "xd" },
       { chargeTitle: "Philister-Senior \n(Phil-x)", chargeName: "Peter Rybczyk", chargeContact: "+48 604 411 265", chargeMail: "phil-x@salia-silesia.eu", chargePhoto: "peter-rybczyk" },
       { chargeTitle: "Philister-Consenior \n(Phil-xx)", chargeName: "Christian Kalisch", chargeContact: "+49 511 22510", chargeMail: "phil-xx@salia-silesia.eu", chargePhoto: "xd" },
       { chargeTitle: "Philister-Scriptor \n(Phil-xxx)", chargeName: "Markus Heller", chargeContact: "+49 1733835315", chargeMail: "phil-xxx@salia-silesia.eu", chargePhoto: "xd" },
       { chargeTitle: "Philister-Quaestor \n(Phil-xxxx)", chargeName: "Franz Josef Ziegler", chargeContact: "+49 89 42017791", chargeMail: "phil-xxxx@salia-silesia.eu", chargePhoto: "xd" },
+      { chargeTitle: "Gesamtverziechnis \nBeauftrager \n(GVB)", chargeName: "Franz Josef Ziegler", chargeContact: "+49 89 42017791", chargeMail: "gvb@salia-silesia.eu", chargePhoto: "xd" },
     ],
     blogCardsArray: [
-      { blogID: 5, blogTitle: i18n.t(`blogPostArray[5].blogTitle`), blogCoverPhoto: "haus-salia", blogDate: "August 25, 2021" },
+      // { blogID: 5, blogTitle: i18n.t(`blogPostArray[5].blogTitle`), blogCoverPhoto: "haus-salia", blogDate: "August 25, 2021" },
       { blogID: 6, blogTitle: i18n.t(`blogPostArray[6].blogTitle`), blogCoverPhoto: "aktivenfahrt-belgien", blogDate: "August 25, 2021" },
       { blogID: 7, blogTitle: i18n.t(`blogPostArray[7].blogTitle`), blogCoverPhoto: "honigverkostung", blogDate: "Juli 28, 2021" },
       { blogID: 8, blogTitle: i18n.t(`blogPostArray[8].blogTitle`), blogCoverPhoto: "semesterantrittskneipe-emilienhutte", blogDate: "März 16, 2021" },
@@ -148,7 +149,7 @@ export default new Vuex.Store({
           require("../assets/blogPhotos/chapterPhotos/merk-leute.jpg"),
           require("../assets/blogPhotos/chapterPhotos/breslau-kommers.jpg"),            
         ],
-        blogCoverPhoto: "geschichte-salia",
+        blogCoverPhoto: "salia",
         blogAdditionalPhotos: null,
         history: true,
       },
@@ -166,19 +167,19 @@ export default new Vuex.Store({
         blogAdditionalPhotos: null,
         contact: true,
       },
-      {
-        blogID: 5,
-        blogTitle: i18n.t(`blogPostArray[5].blogTitle`),
-        blogPreview: i18n.t(`blogPostArray[5].blogPreview`),
-        blogHTML: [
-          {
-            chapterTitle: i18n.t(`blogPostArray[5].blogHTML[0].chapterTitle`),
-            chapterHTML: i18n.t(`blogPostArray[5].blogHTML[0].chapterHTML`),
-          }
-        ],
-        blogCoverPhoto: "haus-salia",
-        blogAdditionalPhotos: null,
-      },
+      // {
+      //   blogID: 5,
+      //   blogTitle: i18n.t(`blogPostArray[5].blogTitle`),
+      //   blogPreview: i18n.t(`blogPostArray[5].blogPreview`),
+      //   blogHTML: [
+      //     {
+      //       chapterTitle: i18n.t(`blogPostArray[5].blogHTML[0].chapterTitle`),
+      //       chapterHTML: i18n.t(`blogPostArray[5].blogHTML[0].chapterHTML`),
+      //     }
+      //   ],
+      //   blogCoverPhoto: "haus-salia",
+      //   blogAdditionalPhotos: null,
+      // },
       {
         blogID: 6,
         blogTitle: i18n.t(`blogPostArray[6].blogTitle`),

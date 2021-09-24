@@ -55,10 +55,15 @@ export default {
 	data () {
 		return {
 			options: [
+				{ item: '/Programm-Wintersemester-2021.pdf', name: 'Wintersemester 2021' },
 				{ item: '/Programm-Sommersemester-2020.pdf', name: 'Sommersemester 2020' },
 				{ item: '/Programm-Wintersemester-2020.pdf', name: 'Wintersemester 2020' },
+				{ item: '/Programm-Sommersemester-2019.pdf', name: 'Sommersemester 2019' },
 				{ item: '/Programm-Wintersemester-2019.pdf', name: 'Wintersemester 2019' },
+				{ item: '/Programm-Sommersemester-2018.pdf', name: 'Sommersemester 2018' },
 				{ item: '/Programm-Wintersemester-2018.pdf', name: 'Wintersemester 2018' },
+				{ item: '/Programm-Sommersemester-2017.pdf', name: 'Sommersemester 2017' },
+				{ item: '/Programm-Wintersemester-2017.pdf', name: 'Wintersemester 2017' },
 			],
 			show: true,
 			src: '',

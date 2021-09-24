@@ -60,6 +60,10 @@ export default {
 }
 
 .link-light {
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
   background-color: #3030;
 }
 
@@ -204,7 +208,7 @@ export default {
     gap: 32px;
     margin-bottom: 64px;
 
-    @media(min-width: 500px) {
+    @media(min-width: 600px) {
       grid-template-columns: repeat(2, 1fr);
     }
 
@@ -212,7 +216,7 @@ export default {
       grid-template-columns: repeat(3, 1fr);
     }
 
-    @media(min-width: 1200px) {
+    @media(min-width: 1650px) {
       grid-template-columns: repeat(5, 1fr);
     }
   }

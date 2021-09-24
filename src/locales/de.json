@@ -3,18 +3,19 @@
         "showMorePosts": "Relevante Posts anschauen"
     },
     "contact": {
-      "contactData": "Kontaktdaten",      
+      "contactDataTitle": "Kontaktdaten",
+      "contactData": "Salia Silesia Gleiwitz zu Oppeln im CV \nul. Hlouszka 12 \n45-772 Oppeln, Polen \nx@salia-silesia.eu \n+48 693 809 376",      
       "chargesAktivitas": "Die Chargen",
       "chargesPhilister": "Die Philisterchargen"
     },    
     "program": {
         "semestralProgram": "Semesterprogramm",
-        "downloadProgramInfo": "Möchten Sie den aktuellen Semesterprogramm herunterladen?\nBitte, klicken Sie Wappen an, um es zu machen."
+        "downloadProgramInfo": "Um das aktuelle Semesterprogramm herunterzuladen, bitte klicken Sie das Wappen an."
     },
     "pdfViewer": {
-        "showProgramTitle": "Möchtest Du ausgewählten Semesterprogramm anschauen?",
-        "showProgramInfo": "Hier können Sie den aktuellen und vorherige Semesterprogramme ohne Herunterladen anschauen.",
-        "showProgramPrompt": "Wählen Sie bitte den Semesterprogramm aus."
+        "showProgramTitle": "Archiv der Semesterprogramme",
+        "showProgramInfo": "Hier können Sie das aktuelle und vorherige Semesterprogramme ohne Herunterladen anschauen.",
+        "showProgramPrompt": "Wählen Sie bitte das Semesterprogramm aus."
     },
     "navigation": {
         "home": "Home",
@@ -41,7 +42,7 @@
       "language": "de"
     },    
     "welcomeScreen": {
-        "title": "Wilkommen!",
+        "title": "Willkommen!",
         "blogPost": "Die Akademische Verbindung AV Salia/-Silesia Gleiwitz zu Oppeln im CV wurde am 7. April 1992 durch deutschstämmige schlesische katholische Studenten in Oberschlesien gegründet. 1993 wurde sie zunächst als Freie Vereinigung, 1996 als Vollmitglied in den Cartellverband Katholischer Deutscher Studendenverbindung (CV) aufgenommen. Ihre Verbindungsfarben sind schwarz-orange auf weißem Grund. Als eine schlesische Verbindung vertritt sie ihr vaterländisches Prinzip als die Verbundenheit zur schlesischen Heimat und als ein Streben für ein friedliches Zusammenleben der Völker in Europa."
     },
     "blogPostArray": [
@@ -65,7 +66,7 @@
         },
         {
           "blogTitle": "Semesterprogramm",
-          "blogPreview": "Ob Gottesdienst, Vortrag oder Party – hier finden sich unsere kommenden Veranstaltungstermine."
+          "blogPreview": "Ob Vortrag, Party oder Gottesdienst – hier finden sich unsere kommenden Veranstaltungstermine."
         },
         {
           "blogTitle": "Geschichte",
@@ -144,8 +145,8 @@
           "blogPreview": "Die Zwillinge haben Geburtstag gehabt.",
           "blogHTML": [
             {
-              "chapterTitle": "50 Geburstag von Rybczyk Brudern!",
-              "chapterHTML": "Wir haben den 50-ten Geburtstag von Peter und Robert Rybczyk gefeiert."
+              "chapterTitle": "40 Geburstag von Rybczyk Brudern!",
+              "chapterHTML": "Wir haben den 40-ten Geburtstag von Peter und Robert Rybczyk gefeiert."
             }
           ]
         },

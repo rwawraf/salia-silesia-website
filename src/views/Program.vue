@@ -3,7 +3,7 @@
         <div class="program-content-wrapper">
           <div class="program-content">
             <div>
-              <a href="/Semesterprogramm-SS-2020.pdf" download="salia-silesia-semesterprogramm">
+              <a href="/Programm-Wintersemester-2021.pdf" download="Salia-Silesia-WS-2021">
                 <img class="brand-logo" alt="salia-wappen" src="../assets/navbarImages/salia-wappen.png"/>
               </a>
               <h2>
@@ -87,7 +87,7 @@ export default {
         {
           key: 'schiessen-2021',
           highlight: {
-            color: 'orange',
+            color: 'gray',
             fillMode: 'solid',
           },
           dates: new Date(2021, 9, 16),
@@ -97,7 +97,7 @@ export default {
         },
         {
           key: 'schiessen-2021-popup-1',
-          dot: 'green',
+          dot: 'yellow',
           dates: new Date(2021, 9, 16),
           popover: {
             label: '19:00 hst io. Schießübungen am Schießstand und anschließender Stammtisch'
@@ -125,7 +125,7 @@ export default {
         {
           key: 'guido-2021',
           highlight: {
-            color: 'orange',
+            color: 'gray',
             fillMode: 'solid',
           },
           dates: new Date(2021, 10, 6),
@@ -135,7 +135,7 @@ export default {
         },
         {
           key: 'guido-2021-popup-1',
-          dot: 'green',
+          dot: 'yellow',
           dates: new Date(2021, 10, 6),
           popover: {
             label: 'io. Besichtigung des Bergwerks (Kopalnia Guido)'
@@ -207,7 +207,7 @@ export default {
         {
           key: 'pokerabend-2021',
           highlight: {
-            color: 'orange',
+            color: 'yellow',
             fillMode: 'solid',
           },
           dates: new Date(2021, 11, 3),
@@ -217,7 +217,7 @@ export default {
         },
         {
           key: 'pokerabend-2021-popup-1',
-          dot: 'green',
+          dot: 'gray',
           dates: new Date(2021, 11, 3),
           popover: {
             label: '19:30 hct io. Pokerabend/Brettspielabend'
@@ -226,7 +226,7 @@ export default {
         {
           key: 'steakabend-2021',
           highlight: {
-            color: 'orange',
+            color: 'yellow',
             fillMode: 'solid',
           },
           dates: new Date(2021, 11, 11),
@@ -236,7 +236,7 @@ export default {
         },
         {
           key: 'steakabend-2021-popup-1',
-          dot: 'green',
+          dot: 'gray',
           dates: new Date(2021, 11, 11),
           popover: {
             label: '16:00 hct o. Steakabend'
@@ -245,7 +245,7 @@ export default {
         {
           key: 'lanparty-2021',
           highlight: {
-            color: 'orange',
+            color: 'yellow',
             fillMode: 'solid',
           },
           dates: new Date(2021, 11, 18),
@@ -255,7 +255,7 @@ export default {
         },
         {
           key: 'lanparty-2021-popup-1',
-          dot: 'green',
+          dot: 'gray',
           dates: new Date(2021, 11, 18),
           popover: {
             label: '16:00 hct o. LAN Party'
@@ -356,7 +356,7 @@ div.program {
   margin-bottom: 0;
 
   .calendar {
-    padding: 32px 100px;
+    padding: 32px 32px;
   }
 }
 

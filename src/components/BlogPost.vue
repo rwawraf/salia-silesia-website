@@ -10,19 +10,19 @@
                 <!-- <router-link class="link link-light" v-if="post.welcomeScreen" :to="{ name: 'ViewBlogPost', params: { blogid: 0 } }">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link> -->
-                <router-link class="link link-light" v-if="post.aboutUs" :to="{ name: 'ViewBlogPost', params: { blogid: 1 } }">
+                <router-link class="link-light" v-if="post.aboutUs" :to="{ name: 'ViewBlogPost', params: { blogid: 1 } }">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
-                <router-link class="link link-light" v-if="post.program" :to="`/${$i18n.locale}/program`">
+                <router-link class="link-light" v-if="post.program" :to="`/${$i18n.locale}/program`">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
-                <router-link class="link link-light" v-if="post.history" :to="{ name: 'ViewBlogPost', params: { blogid: 3 } }">
+                <router-link class="link-light" v-if="post.history" :to="{ name: 'ViewBlogPost', params: { blogid: 3 } }">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
-                <router-link class="link link-light" v-if="post.contact" :to="`/${$i18n.locale}/contact`">
+                <router-link class="link-light" v-if="post.contact" :to="`/${$i18n.locale}/contact`">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
-                <router-link class="link link-light" v-if="post.blogID > 5" :to="{ name: 'ViewBlogPost', params: { blogid: this.post.blogID } }">
+                <router-link class="link-light" v-if="post.blogID > 5" :to="{ name: 'ViewBlogPost', params: { blogid: this.post.blogID } }">
                     {{ $t('blogPost.showMoreLink') }}<Arrow class="arrow arrow-light"/>
                 </router-link>
             </div>
@@ -119,6 +119,7 @@ export default {
                     padding-bottom: 4px;
                     border-bottom: 1px solid transparent;
                     transition: 0.5s ease-in all;
+                    color: white;
                     
                     &:hover {
                         border-bottom-color: #303030;
@@ -128,6 +129,7 @@ export default {
                 .link-light {
                     &:hover {
                         border-bottom-color: #fff;
+                        color: white;
                     }
                 }
             }

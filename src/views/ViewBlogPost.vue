@@ -108,7 +108,6 @@ export default {
 
   .wappen {
     display: block;
-    width: 100%;
     max-height: 500px;
     object-fit: cover;
     margin: 0 auto;

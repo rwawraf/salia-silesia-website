@@ -3,7 +3,8 @@
         "showMorePosts": "Zobacz powiązane posty"
     },
     "contact": {
-        "contactData": "Dane kontaktowe",
+        "contactDataTitle": "Dane kontaktowe",
+        "contactData": "Salia Silesia Gleiwitz zu Oppeln im CV \nul. Hlouszka 12 \n45-772 Opole, Polska \nx@salia-silesia.eu \n+48 693 809 376",        
         "chargesAktivitas": "Die Chargen",
         "chargesPhilister": "Die Philisterchargen"
     },
@@ -144,8 +145,8 @@
         "blogPreview": "Die Zwillinge haben Geburtstag gehabt.",
         "blogHTML": [
           {
-            "chapterTitle": "50 Geburstag von Rybczyk Brudern!",
-            "chapterHTML": "Wir haben den 50-ten Geburtstag von Peter und Robert Rybczyk gefeiert."
+            "chapterTitle": "40 Geburstag von Rybczyk Brudern!",
+            "chapterHTML": "Wir haben den 40-ten Geburtstag von Peter und Robert Rybczyk gefeiert."
           }
         ]
       },

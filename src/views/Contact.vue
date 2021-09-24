@@ -12,14 +12,10 @@
           <div class="contact-data-content">
             <div>
               <h2>
-                {{ $t('contact.contactData') }}
+                {{ $t('contact.contactDataTitle') }}
               </h2>
               <p class="contact-data">
-                Salia Silesia Gleiwitz zu Oppeln im CV<br>
-                ul. Hlouszka 12<br>
-                45-772 Opole, Polska<br>
-                x@salia-silesia.eu<br>
-                +48 693 809 376<br>
+                {{ $t('contact.contactData') }}
               </p>
             </div>
           </div>
@@ -148,6 +144,7 @@ div.contact {
       .contact-data {
           font-size: 18px;
           text-align: center;
+          white-space: pre-line;
       }    
     }
   }
