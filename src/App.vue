@@ -2,8 +2,17 @@
   <div class="app-wrapper">
     <div class="app">
       <Navigation />
-      <router-view />
+      <transition
+        name="fade"
+      >
+        <router-view />
+      </transition>
       <Footer />
+      <cookie-law theme="blood-orange" buttonText="Ja, ich stimme zu">
+        <div slot="message">
+          Mit Deinem "Ja, ich stimme zu" erklärst Du Dich einverstanden, dass wir Cookies setzen. Unsere Datenschutzklärung findest Du <router-link :to="{ name: 'ViewBlogPost', params: { blogid: 9 } }">hier</router-link>.
+        </div>
+      </cookie-law>
     </div>
   </div>
 </template>
@@ -11,12 +20,14 @@
 <script>
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
+import CookieLaw from 'vue-cookie-law'
 
 export default {
   name: "app",
   components: {
     Navigation,
-    Footer
+    Footer,
+    CookieLaw,
   },
   data() {
     return {
@@ -222,4 +233,13 @@ export default {
   }
 }
 
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
 </style>

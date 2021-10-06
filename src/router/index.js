@@ -1,10 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Program from "../views/Program.vue";
-import Contact from "../views/Contact.vue";
-import BlogCardCollection from "../views/BlogCardCollection.vue";
-import ViewBlogPost from "../views/ViewBlogPost.vue";
 import i18n from '../i18n';
 
 Vue.use(VueRouter);
@@ -12,10 +8,10 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    redirect: `/${i18n.locale}`
+    redirect: i18n.locale
   },
   {
-    path: `/:lang`,
+    path: `/:lang(de|pl)`,
     component: {
       render (c) { return c('router-view') }
     },
@@ -31,7 +27,7 @@ const routes = [
       {
         path: "program",
         name: "Program",
-        component: Program,
+        component: () => import(/* webpackChunkName: "program" */ '../views/Program.vue'),
         meta: {
           title: 'Program'
         }
@@ -39,7 +35,7 @@ const routes = [
       {
         path: "posts",
         name: "Posts",
-        component: BlogCardCollection,
+        component: () => import(/* webpackChunkName: "blogCardCollection" */ '../views/BlogCardCollection.vue'),
         meta: {
           title: 'Posts'
         }
@@ -47,7 +43,7 @@ const routes = [
       {
         path: "contact",
         name: "Contact",
-        component: Contact,
+        component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
         meta: {
           title: 'Contact'
         }
@@ -55,19 +51,33 @@ const routes = [
       {
         path: "view-blog/:blogid",
         name: "ViewBlogPost",
-        component: ViewBlogPost,
+        component: () => import(/* webpackChunkName: "viewBlogPost" */ '../views/ViewBlogPost.vue'),
         meta: {
           title: 'View Blog',
         },
       },
     ]
   },
-
+  {
+    path: "*",
+    name: "NotFound",
+    component: () => import(/* webpackChunkName: "notFound" */ "../views/NotFound"),
+    meta: {
+      title: 'Not Found',
+    }
+  },
 ];
+
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
+  scrollBehavior () {
+    return { 
+      x: 0, y: 0,
+      behavior: 'instant' 
+    }
+  },
   routes,
 });
 

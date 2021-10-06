@@ -96,7 +96,12 @@ export default {
                     font-weight: 300;
                     text-transform: uppercase;
                     margin-bottom: 24px;
+
                     @media(min-width: 700px) {
+                        font-size: 32px;
+                    }
+                    
+                    @media(min-width: 1300px) {
                         font-size: 40px;
                     }
                 }
